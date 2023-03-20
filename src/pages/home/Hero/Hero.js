@@ -2,8 +2,12 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <div>
-            
+        <div id="hero">
+            <div className="container">
+                <div className="hero">
+                    frgrefe
+                </div>
+            </div>
         </div>
     );
 };
