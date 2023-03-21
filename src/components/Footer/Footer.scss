@@ -1,0 +1,49 @@
+#footer {
+  padding: 10px 0;
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+    &--logo {
+      font-family: 'Silk Serif', cursive;
+      font-weight: 600;
+      font-size: 28px;
+      color: #FFFFFF;
+    }
+
+    &--navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 38%;
+
+      a {
+        font-family: 'Spartan', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+      }
+    }
+
+    &--allIcons {
+      &__icon {
+        color: white;
+        padding-left: 10px;
+        font-size: 24px;
+      }
+    }
+
+    &--end{
+      font-family: 'Montserrat',sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      text-align: center;
+      padding: 20px 0;
+    }
+  }
+}

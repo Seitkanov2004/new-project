@@ -1,38 +1,41 @@
-#header{
+#header {
   padding: 20px 0;
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
   background: #1B2026;
   position: fixed;
   width: 100%;
-  .header{
+
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    &--logo{
-      h1{
-        font-family: 'Silk Serif', cursive;
-        font-weight: 600;
-        font-size: 28px;
-        color: #FFFFFF;
-      }
+
+    &--logo {
+      font-family: 'Silk Serif', cursive;
+      font-weight: 600;
+      font-size: 28px;
+      color: #FFFFFF;
     }
-    &--navbar{
+
+    &--navbar {
       display: flex;
       justify-content: space-between;
       align-items: center;
       width: 70%;
-      a{
+
+      a {
         font-family: 'Spartan', sans-serif;
         font-size: 16px;
         text-transform: capitalize;
         color: #FFFFFF;
       }
 
-      &__search{
+      &__search {
         width: 187px;
         height: 37px;
         position: relative;
-        input{
+
+        input {
           background: #EF272C;
           opacity: 0.8;
           border: 0.8px solid rgba(86, 9, 187, 0.2);
@@ -43,23 +46,25 @@
           font-size: 16px;
           padding: 0 10px 0 30px;
         }
-        &--icon{
+
+        &--icon {
           position: absolute;
           left: 10px;
-          top: 12px;
+          top: 11.5px;
           color: #c0c0c0;
         }
       }
 
-      select{
+      select {
         background: transparent;
         border: none;
         outline: none;
         list-style: none;
-        font-family: 'Silk Serif',sans-serif;
+        font-family: 'Silk Serif', sans-serif;
         font-size: 14px;
         color: white;
-        option{
+
+        option {
           background: transparent;
           border: none;
           outline: none;
