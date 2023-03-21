@@ -56,7 +56,7 @@ const Hero = () => {
                             <p>Location</p>
                             <span></span>
                             <MdOutlineFmdGood className="hero--title__line--good"/>
-                            <p>Rua da moeda 1g,1200-275,Portugal</p>
+                            <p>Ruada moeda 1g,1200-275,Portugal</p>
                         </div>
                         <div className="hero--title__new">
                             <p>Hotline</p>
