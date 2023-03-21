@@ -5,7 +5,7 @@ const Hero = () => {
         <div id="hero">
             <div className="container">
                 <div className="hero">
-                    frgrefe
+
                 </div>
             </div>
         </div>
