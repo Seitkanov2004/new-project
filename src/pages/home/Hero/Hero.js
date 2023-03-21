@@ -8,7 +8,7 @@ import vr from "../../../assets/img/Group 2.svg"
 import foto from "../../../assets/img/Group 1.svg"
 
 const Hero = () => {
-    const [info, setInfo] = useState(false)
+    const [info , setInfo] = useState(false)
     return (
         <div id="hero">
             <div className="bg" hidden={!info} onClick={() => setInfo(false)}/>
