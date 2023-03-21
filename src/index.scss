@@ -22,3 +22,13 @@ body{
 a{
   text-decoration: none;
 }
+
+::placeholder{
+  color: #c0c0c0;
+}
+:-ms-input-placeholder{
+  color: #c0c0c0;
+}
+::-ms-input-placeholder{
+  color: #c0c0c0;
+}
