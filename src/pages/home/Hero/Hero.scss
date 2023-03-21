@@ -1,7 +1,207 @@
+
 #hero{
-  background: url("./../../../assets/img/firstPhotoAboutUs.png")no-repeat center/cover;
+  background: url("./../../../assets/img/png.png")no-repeat center/cover;
   min-height: 100vh;
+  .bg{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.58);
+  }
   .hero{
+    position: relative;
     padding-top: 100px;
+    &--text{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 80px;
+      &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h4{
+          font-family: 'Shalimar',sans-serif;
+          font-weight: 400;
+          font-size: 40px;
+          color: #FFFFFF;
+          margin: 0 20px;
+        }
+      }
+      &__block{
+
+       &--width{
+         cursor: pointer;
+         width: 220px;
+         height: 42px;
+         left: 608px;
+         top: 433px;
+         display: flex;
+         margin: 10px 0;
+         align-items: center;
+         justify-content: center;
+         background: transparent;
+         border: 1.6px solid #EF272C;
+         animation: 3s;
+         &__icon{
+           color: white;
+           margin: 0 10px;
+           font-size: 30px;
+         }
+         p{
+           font-family: 'Spartan',sans-serif;
+           font-weight: 600;
+           font-size: 12px;
+           text-transform: uppercase;
+           color: #FFFFFF;
+         }
+       }
+        &--lin{
+          width: 80px;
+          border: 1px solid red;
+          margin-left: 140px;
+        }
+        &--border{
+          width: 80px;
+          border: 1px solid red;
+        }
+      }
+      h1{
+        font-family: 'Silk Serif', cursive;
+        font-weight: 600;
+        font-size: 64px;
+        color: #FFFFFF;
+      }
+      p{
+        font-family: 'Spartan',sans-serif;
+        margin: 20px 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 506px;
+      }
+    }
+    &--title{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 120px;
+      &__line{
+        display: flex;
+        align-items: center;
+        p{
+          font-weight: 600;
+          font-size: 14px;
+          color: #FFFFFF;
+
+        }
+        span{
+          width: 56px;
+          border: 1px solid white;
+          margin: 0 10px;
+        }
+        &--good{
+          color: red;
+          margin: 0 10px;
+        }
+      }
+      &__new{
+        display: flex;
+        align-items: center;
+        p{
+          font-weight: 600;
+          font-size: 14px;
+          color: #FFFFFF;
+
+        }
+        span{
+          width: 56px;
+          border: 1px solid white;
+          margin: 0 10px;
+        }
+        &--gou{
+          color: red;
+          margin: 0 10px;
+        }
+      }
+    }
+    &--font{
+      width: 77rem;
+      margin: 20px 0;
+      border: 1px solid gray;
+    }
+    &--name{
+      display: none;
+      position: absolute;
+      width: 335px;
+      height: 339px;
+      right: 30px;
+      bottom: 100px;
+      z-index: 99;
+      background: #1F2731;
+      box-shadow: -1px 0px 23px 1px rgba(207, 207, 207, 0.2);
+      border-radius: 8px;
+      animation: .7s out ease-in;
+      button{
+        width: 290px;
+        height: 59px;
+        background: #EF272C;
+        font-weight: 500;
+        font-size: 17px;
+        color: #FFFFFF;
+        border-radius: 4px;
+        margin: 30px 25px;
+      }
+      &__enter{
+        margin: 40px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &--class{
+          margin: 0 15px;
+          h6{
+            font-weight: 400;
+            font-size: 12px;
+            color: #FFFFFF;
+
+          }
+          h4{
+            font-weight: 400;
+            font-size: 17px;
+            color: #109FEF;
+          }
+        }
+      }
+      &__phone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &--ash{
+          margin: 0 15px;
+          h6{
+            font-weight: 400;
+            font-size: 12px;
+            color: #FFFFFF;
+
+          }
+          h4{
+            font-weight: 400;
+            font-size: 17px;
+            color: #109FEF;
+          }
+        }
+      }
+    }
+    @keyframes out {
+      0%{
+        transform: translateX(350px);
+      }
+    }
   }
 }
