@@ -3,18 +3,15 @@ import titleImg from "./../../../assets/img/title.svg"
 import titleRight from "./../../../assets/img/title-right.svg"
 import {Foods} from "../../../components/data/foods";
 
+
 const MeinMenu = () => {
 
-    const [foods, setFoods] = useState(false)
+    const [selectedTab, setSelectedTab] = useState(1);
 
-    const addFoods = (el, id) => {
-        if (el.id === id){
-            setFoods(true)
-        }
-        else {
-            setFoods(false)
-        }
-    }
+    const handleTabClick = (index) => {
+        setSelectedTab(index);
+    };
+
 
     return (
         <div id="mainMenu">
@@ -38,25 +35,33 @@ const MeinMenu = () => {
                                 Foods.map(el => (
                                     <div className="mainMenu--block--blockChild__foods">
                                         <div className="mainMenu--block--blockChild__foods--allBtn">
-                                            <div onClick={() => {
-                                                addFoods(el.id, el.nameFoots.id )
-                                            }} className="mainMenu--block--blockChild__foods--allBtn__btn">
-                                                <button>{el.title}</button>
-                                                <div className="mainMenu--block--blockChild__foods--allBtn__btn--line"/>
+                                            <div
+                                                style={{
+                                                    background: selectedTab === el.id ? "#EF272C" : "",
+                                                }}
+                                                className={selectedTab === el.id ? 'active mainMenu--block--blockChild__foods--allBtn__btn' : 'mainMenu--block--blockChild__foods--allBtn__btn'}
+                                                onClick={() => {
+                                                    handleTabClick(el.id)
+                                                }} >
+                                                <button style={{
+                                                    border: selectedTab === el.id ? "none" : "",
+                                                }}>{el.title}</button>
+                                                <div style={{
+                                                    transition: ".4s",
+                                                    left : selectedTab === el.id ? "320px" : "",
+                                                }} className="mainMenu--block--blockChild__foods--allBtn__btn--line"/>
                                             </div>
                                         </div>
                                     </div>
                                 ))
                             }
                         </div>
-                        <div style={{
-                            display: foods ? "block" : "none"
-                        }} className="mainMenu--block--foodsName">
+                        <div className="mainMenu--block--foodsName">
                             {
                                 Foods.map(el => (
                                     <div className="mainMenu--block__onlyFood">
                                         {
-                                            el.id === el.nameFoots.id ? el.nameFoots.slice(0, 1).map(el => (
+                                            selectedTab === el.id && el.nameFoots.map(el => (
                                                 <div className="mainMenu--block__onlyFood__parent">
                                                     <div className="mainMenu--block__onlyFood__parent--about">
                                                         <h1>{el.name}</h1>
@@ -68,7 +73,7 @@ const MeinMenu = () => {
                                                         <button>Order Now</button>
                                                     </div>
                                                 </div>
-                                            )) : <h1>error</h1>
+                                            ))
                                         }
                                     </div>
                                 ))
