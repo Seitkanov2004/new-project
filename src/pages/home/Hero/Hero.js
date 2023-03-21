@@ -24,12 +24,20 @@ const Hero = () => {
                         <p>Classic steak & delicious with delightfully unexpenced twists.
                             The Restaurant`s sunny decor was inspired by the diners</p>
                         <div className="hero--text__block">
-                            <div className="hero--text__block--lin"></div>
+                            <div style={{
+                                transition: ".4s",
+                                width: info ? "140px" : "80px",
+                                marginLeft: info ? "40px" : "140px"
+                            }} className="hero--text__block--lin"></div>
                             <div className="hero--text__block--width" onClick={() => setInfo(!info)}>
                                 <p>Reserve Your Table</p>
                                 <FiArrowRight className="hero--text__block--width__icon"/>
                             </div>
-                            <div className="hero--text__block--border"></div>
+                            <div style={{
+                                transition: ".4s",
+                                width: info ? "140px" : "80px",
+                                marginLeft: info ? "40px" : ""
+                            }} className="hero--text__block--border"></div>
                         </div>
                     </div>
                     <div className="hero--name" style={{

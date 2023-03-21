@@ -13,14 +13,14 @@ export const Foods = [
         nameFoots: [
             {
                 id: 1,
-                name: "Beer Brewery",
+                name: "Asan Brewery",
                 img: des1,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert: "soda,cream,milk,sugar",
             }, {
                 id: 1,
-                name: "Beer Brewery",
+                name: "sasasa Brewery",
                 img: des2,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
@@ -63,7 +63,7 @@ export const Foods = [
         nameFoots: [
             {
                 id: 2,
-                name: "Beer Brewery",
+                name: "Timur Brewery",
                 img: des1,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
@@ -113,7 +113,7 @@ export const Foods = [
         nameFoots: [
             {
                 id: 3,
-                name: "Beer Brewery",
+                name: "Syrgabek Brewery",
                 img: des1,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
@@ -163,7 +163,7 @@ export const Foods = [
         nameFoots: [
             {
                 id:4,
-                name: "Beer Brewery",
+                name: "Baiel Brewery",
                 img: des1,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
@@ -213,7 +213,7 @@ export const Foods = [
         nameFoots: [
             {
                 id: 5,
-                name: "Beer Brewery",
+                name: "Ali Brewery",
                 img: des1,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
