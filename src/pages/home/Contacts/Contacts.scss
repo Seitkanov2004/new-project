@@ -1,0 +1,175 @@
+#contacts {
+  padding: 100px 0;
+
+  .contacts {
+    display: flex;
+    justify-content: space-evenly;
+
+    &--visit {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 500px;
+
+      &__joinUs {
+        display: flex;
+        align-items: center;
+
+        svg {
+          margin-right: 30px;
+        }
+      }
+
+      h5 {
+        font-family: 'Shalimar', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 49px;
+        color: #FFFFFF;
+      }
+
+      h2 {
+        font-family: 'Silk Serif', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 61px;
+        color: #FFFFFF;
+      }
+
+      h3 {
+        font-family: 'Spartan', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        color: #EF272C;
+      }
+
+      h4 {
+        font-family: 'Spartan', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+      }
+
+      button {
+        width: 210px;
+        height: 40px;
+        border: 2px solid #EF272C;
+        background: transparent;
+        font-family: 'Spartan', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 13px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+      }
+
+      &__address {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100px;
+      }
+
+      &__timeline {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100px;
+      }
+
+      &__btn{
+        margin-top: 35px;
+
+        button{
+          margin: 6px;
+          cursor: pointer;
+        }
+        &--rightLine{
+          width: 120px;
+          border: solid 1px #EF272C;
+          margin-left: 93px;
+        }
+
+        &--leftLine{
+          width: 120px;
+          border: solid 1px #EF272C;
+          margin-left: 5px;
+        }
+
+      }
+
+    }
+
+    &--cardLocation {
+
+      &__background{
+        width: 490px;
+        height: 420px;
+        background: #EF272C;
+        padding: 37px;
+
+        &--contactInfo{
+          div{
+            display: flex;
+            align-items: center;
+          }
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 150px;
+
+          h2{
+            font-family: 'Gilroy', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #1F2731;
+          }
+
+          h3{
+            font-family: 'Montserrat',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 27px;
+            color: #1F2731;
+          }
+
+          #call{
+            font-size: 27px;
+            margin-right: 10px;
+          }
+
+          #email{
+            font-size: 25px;
+            margin-right: 10px;
+          }
+
+          #telegram{
+            font-size: 25px;
+            margin-right: 15px;
+          }
+
+          #instagram{
+            font-size: 25px;
+          }
+
+        }
+
+        &--location{
+          margin-top: 45px;
+          margin-left: 48px;
+        }
+
+      }
+    }
+  }
+}
