@@ -38,17 +38,49 @@
     }
 
    &--img{
-
-     flex-wrap: nowrap;
-     overflow-x: auto;
-     scrollbar-arrow-color: #EF272C ;
      &__photo {
+
+       flex-wrap: nowrap;
+       overflow-x: auto;
+
+
        display: flex;
+       width: 400px;
+       cursor: grab;
        img {
          padding: 0 15px;
+         margin: 0 10px;
        }
 
      }
    }
   }
+}
+
+.slick-track{
+  display: flex !important;
+  width: 400px !important;
+  .slick-list{
+    display: flex;
+    width: 500px !important;
+  }
+}
+
+.slick-slider .slick-list{
+  width: 500px !important;
+}
+.slick-slider{
+  display: flex;
+}
+
+.slick-slide{
+  margin: 0 10px;
+}
+
+.slick-prev{
+  display: none !important;
+}
+
+.slick-next{
+  color: red !important;
 }

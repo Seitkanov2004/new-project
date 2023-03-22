@@ -1,41 +1,23 @@
 import React, {useState} from 'react';
-import titleImg from "./../../../assets/img/title.svg"
-import titleRight from "./../../../assets/img/title-right.svg"
 import {Foods} from "../../../components/data/foods";
-import {Link} from "react-router-dom";
 
-
-const MeinMenu = () => {
-
+const AboutFoods = () => {
     const [selectedTab, setSelectedTab] = useState(1);
 
     const handleTabClick = (index) => {
         setSelectedTab(index);
     };
 
-
     return (
-        <div id="mainMenu">
+        <div id="aboutFoods">
             <div className="container">
-                <div className="mainMenu">
-                    <div className="mainMenu--title">
-                        <div className="mainMenu--title__titleBlock">
-                            <img src={titleImg} alt="" className="mainMenu--title__titleBlock--left"/>
-                            <div className="mainMenu--title__titleBlock--line"/>
-                        </div>
-                        <h1 className="mainMenu--title__name">Main Menu</h1>
-                        <div className="mainMenu--title__titleBlock--titleBlock">
-                            <img src={titleRight} alt="" className="mainMenu--title__titleBlock--left"/>
-                            <div className="mainMenu--title__titleBlock--line"/>
-                        </div>
-                    </div>
-                    <h1 className="mainMenu--aboutFoods">Exceptional Quality. Delightfully Delicious</h1>
-                    <div className="mainMenu--block">
-                        <div className="mainMenu--block--blockChild">
+                <div className="aboutFoods">
+                    <div className="aboutFoods--block">
+                        <div className="aboutFoods--block--blockChild">
                             {
                                 Foods.map(el => (
-                                    <div className="mainMenu--block--blockChild__foods">
-                                        <div className="mainMenu--block--blockChild__foods--allBtn">
+                                    <div className="aboutFoods--block--blockChild__foods">
+                                        <div className="aboutFoods--block--blockChild__foods--allBtn">
                                             <div
                                                 style={{
                                                     background: selectedTab === el.id ? "#EF272C" : "",
@@ -57,23 +39,20 @@ const MeinMenu = () => {
                                 ))
                             }
                         </div>
-                        <div className="mainMenu--block--foodsName">
+                        <div className="aboutFoods--block--foodsName">
                             {
                                 Foods.map(el => (
-                                    <div className="mainMenu--block__onlyFood">
+                                    <div className="aboutFoods--block__onlyFood">
                                         {
                                             selectedTab === el.id && el.nameFoots.map(el => (
-                                                <div className="mainMenu--block__onlyFood__parent">
-                                                    <div className="mainMenu--block__onlyFood__parent--about">
-                                                        <h1>{el.name}</h1>
-                                                        <div/>
+                                                <div className="aboutFoods--block__onlyFood__parent">
+                                                    <img src={el.img} alt="" className="aboutFoods--block__onlyFood__parent--img"/>
+                                                    <div className="aboutFoods--block__onlyFood__parent--order">
+                                                        <div className="aboutFoods--block__onlyFood__parent--order__title">
+                                                            <h4>{el.name}</h4>
+                                                            <h5>{el.desert}</h5>
+                                                        </div>
                                                         <h3>{el.price}</h3>
-                                                    </div>
-                                                    <div className="mainMenu--block__onlyFood__parent--order">
-                                                        <p>{el.text}</p>
-                                                        <Link to={"/foods"}>
-                                                            <button>Order Now</button>
-                                                        </Link>
                                                     </div>
                                                 </div>
                                             ))
@@ -89,4 +68,4 @@ const MeinMenu = () => {
     );
 };
 
-export default MeinMenu;
+export default AboutFoods;

@@ -1,6 +1,7 @@
 @import "pages/home/home";
 @import "components/Header/Header";
 @import "components/Footer/Footer";
+@import "pages/Menu/Menu";
 
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Philosopher:ital,wght@0,400;0,700;1,700&family=Shalimar&display=swap');
 
@@ -31,4 +32,21 @@ a{
 }
 ::-ms-input-placeholder{
   color: #c0c0c0;
+}
+
+
+.best--img__photo::-webkit-scrollbar{
+  background: transparent;
+}
+
+.best--img__photo::-webkit-scrollbar-thumb{
+  background-color: transparent;
+}
+
+.modern::-webkit-scrollbar{
+  background: transparent;
+}
+
+.modern::-webkit-scrollbar-thumb{
+  background: transparent;
 }
