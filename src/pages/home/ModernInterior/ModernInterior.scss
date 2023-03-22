@@ -1,0 +1,52 @@
+#modern {
+
+  .modern {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+    &--text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0;
+      &__block {
+        display: flex;
+        flex-direction: column;
+
+        &--img {
+          padding: 2px 0;
+        }
+
+      }
+      &__title {
+        margin: 0 30px;
+        font-family: 'Shalimar',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 49px;
+        color: #FFFFFF;
+        }
+    }
+
+    &--img {
+
+    }
+
+    &--image {
+      margin: 0 25px;
+
+      &__fon {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+
+        img {
+          margin: 0 6px;
+        }
+      }
+    }
+  }
+}
