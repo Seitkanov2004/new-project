@@ -1,9 +1,9 @@
 import des1 from "./../../assets/img/des1.png"
-import des2 from "./../../assets/img/des1.png"
-import des3 from "./../../assets/img/des1.png"
-import des4 from "./../../assets/img/des1.png"
-import des5 from "./../../assets/img/des1.png"
-import des6 from "./../../assets/img/des1.png"
+import des2 from "./../../assets/img/des2.png"
+import des3 from "./../../assets/img/des3.png"
+import des4 from "./../../assets/img/des4.png"
+import des5 from "./../../assets/img/des5.png"
+import des6 from "./../../assets/img/des6.png"
 
 export const Foods = [
     {
@@ -13,21 +13,21 @@ export const Foods = [
         nameFoots: [
             {
                 id: 1,
-                name: "Asan Brewery",
+                name: "des Brewery",
                 img: des1,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert: "soda,cream,milk,sugar",
             }, {
                 id: 1,
-                name: "sasasa Brewery",
+                name: "des Brewery",
                 img: des2,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert: "soda,cream,milk,sugar",
             }, {
                 id: 1,
-                name: "Beer Brewery",
+                name: "des Brewery",
                 img: des3,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
@@ -63,14 +63,14 @@ export const Foods = [
         nameFoots: [
             {
                 id: 2,
-                name: "Timur Brewery",
-                img: des1,
+                name: "hot Brewery",
+                img: des6,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert: "soda,cream,milk,sugar",
             }, {
                 id: 2,
-                name: "Beer Brewery",
+                name: "hot Brewery",
                 img: des2,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
@@ -78,7 +78,7 @@ export const Foods = [
             }, {
                 id: 2,
                 name: "Beer Brewery",
-                img: des3,
+                img: des5,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert: "soda,cream,milk,sugar",

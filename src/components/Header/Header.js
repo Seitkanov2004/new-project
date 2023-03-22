@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import {FiSearch} from "react-icons/fi";
 
 const Header = () => {
@@ -8,12 +8,14 @@ const Header = () => {
             <div className="container">
                 <div className="header">
                     <h1 className="header--logo">
-                        <h1>Restaurant</h1>
+                        <NavLink to={"/"}>
+                            <h1>Restaurant</h1>
+                        </NavLink>
                     </h1>
                     <div className="header--navbar">
-                        <NavLink to={"/"}>interior</NavLink>
-                        <NavLink to={"/"}>About Us</NavLink>
-                        <NavLink to={"/"}>Menu</NavLink>
+                        <a href="#modern">interior</a>
+                        <a href="#about">About Us</a>
+                        <a href="#mainMenu">Menu</a>
                         <NavLink to={"/"}>Contacts</NavLink>
                         <div className="header--navbar__search">
                             <input type="text" placeholder="Search"/>

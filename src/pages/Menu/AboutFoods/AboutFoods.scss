@@ -1,9 +1,10 @@
-#mainMenu {
-  .mainMenu {
+#aboutFoods {
+  .aboutFoods {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 120px 0;
+
     &--title {
       display: flex;
       justify-content: center;
@@ -62,7 +63,8 @@
             align-items: start;
             width: 380px;
             overflow: hidden;
-            &__btn {
+
+            .mainMenu--block--blockChild__foods--allBtn__btn {
               background: #1F2731;
               width: 94%;
               height: 70px;
@@ -94,7 +96,7 @@
                 transition: .5s;
               }
 
-              &:hover{
+              &:hover {
                 background: rgba(239, 39, 44, 0.27);
 
                 button {
@@ -109,61 +111,62 @@
 
 
       &__onlyFood {
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+        flex-wrap: wrap;
         //width: 60%;
         &__parent {
           display: flex;
           flex-direction: column;
           align-items: start;
           padding-bottom: 40px;
+          width: 360px;
+          height: 220px;
+          margin: 10px 0;
+          background: #FFFFFF;
+          border-radius: 2px;
 
-          &--about {
+          &--img {
+            width: 100%;
+            height: auto;
+          }
+
+          &--order {
             display: flex;
             justify-content: space-between;
-            align-items: end;
-            padding: 16px 0;
-            h1{
-              font-family: 'Silk Serif',cursive;
-              font-weight: 600;
-              font-size: 20px;
-              color: #FFFFFF;
+            align-items: center;
+            width: 94%;
+
+            &__title {
+              padding-left: 10px;
+
+              h5 {
+                font-family: 'Spartan', sans-serif;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                letter-spacing: 0.07em;
+                color: #939393;
+              }
+
+              h4 {
+                font-family: 'Spartan', sans-serif;
+                font-weight: 600;
+                font-size: 18px;
+                padding: 6px 0;
+                line-height: 18px;
+                color: #1F2731;
+              }
             }
-            div{
-              width: 555px;
-              border: 1px dashed darkgrey;
-              margin: 0 20px;
-            }
-            h3{
-              font-family: 'Silk Serif',cursive;
+
+            h3 {
+              font-family: 'Spartan', sans-serif;
               font-weight: 600;
               font-size: 20px;
               color: #EF272C;
             }
-          }
 
-          &--order{
-            display: flex;
-            justify-content: space-between;
-            align-items: end;
-            p{
-              font-family: 'Spartan',sans-serif;
-              font-weight: 400;
-              font-size: 14px;
-              line-height: 20px;
-              color: #FFFFFF;
-              width: 80%;
-            }
-
-            button{
-              cursor: pointer;
-              font-family: 'Silk Serif',sans-serif;
-              font-weight: 600;
-              font-size: 16px;
-              border: none;
-              color: #FFFFFF;
-              border-bottom: 1px white solid;
-              background: transparent;
-              margin-bottom: -20px;
-            }
           }
 
         }
