@@ -4,7 +4,7 @@ import AboutFoods from "./AboutFoods/AboutFoods";
 const Menu = () => {
     return (
         <div>
-            <AboutFoods/>
+            {/*<AboutFoods/>*/}
         </div>
     );
 };
