@@ -13,10 +13,10 @@ const Header = () => {
                         </NavLink>
                     </h1>
                     <div className="header--navbar">
-                        <a href="#modern"> interior</a>
+                        <a href="#modern">interior</a>
                         <a href="#about">About Us</a>
                         <a href="#mainMenu">Menu</a>
-                        <NavLink to={"/"}>Contacts</NavLink>
+                        <a href="#contacts">Contacts</a>
                         <div className="header--navbar__search">
                             <input type="text" placeholder="Search"/>
                             <FiSearch className="header--navbar__search--icon"/>

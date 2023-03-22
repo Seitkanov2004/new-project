@@ -6,19 +6,51 @@
     padding: 120px 0;
 
     &--parentBtn{
+      transition: .4s;
       &__btn{
         padding: 0 10px;
+        font-size: 24px;
       }
+
+      &__topLine{
+        width: 100px;
+        height: 2px;
+        background: #EF272C;
+        transition: .4s;
+      }
+
+      &__buttonLine{
+        width: 100px;
+        transition: .4s;
+        height: 2px;
+        background: #EF272C;
+        margin-left: 132px;
+      }
+
       button{
         font-family: 'Spartan',sans-serif;
         font-weight: 600;
         font-size: 12px;
         text-transform: uppercase;
-        padding: 10px 40px;
+        padding: 14px 40px;
         color: #FFFFFF;
         margin: 10px 0;
         background: transparent;
-        border: #EF272C 2px solid;
+        border: #EF272C 3px solid;
+        display: flex;
+        align-items: center;
+      }
+
+      &:hover{
+        transform: scale(1.1);
+        .mainMenu--parentBtn__topLine{
+          margin-left: 40px;
+          width: 150px;
+        }
+        .mainMenu--parentBtn__buttonLine{
+          margin-left: 40px;
+          width: 150px;
+        }
       }
     }
 

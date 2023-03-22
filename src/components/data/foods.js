@@ -71,7 +71,7 @@ export const Foods = [
             }, {
                 id: 2,
                 name: "hot Brewery",
-                img: des2,
+                img: des3,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert: "soda,cream,milk,sugar",
@@ -85,7 +85,7 @@ export const Foods = [
             }, {
                 id: 2,
                 name: "Beer Brewery",
-                img: des4,
+                img: des1,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
                 desert: "soda,cream,milk,sugar",
@@ -113,7 +113,7 @@ export const Foods = [
         nameFoots: [
             {
                 id: 3,
-                name: "Syrgabek Brewery",
+                name: "Syrga Brewery",
                 img: des1,
                 price: "$24",
                 text: "Lörem ipsum askstoppad defaktisk, logokemi. Diastat retos att endomatisk. Geogehet pultvätta, om pneumativ.",
