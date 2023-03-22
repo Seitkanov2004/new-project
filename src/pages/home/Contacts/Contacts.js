@@ -44,7 +44,9 @@ const Contacts = () => {
                     <div className="contacts--cardLocation">
                         <div className="contacts--cardLocation__background">
                             <div className="contacts--cardLocation__background--contactInfo">
+
                                 <h2>Contact Info</h2>
+
                                 <div>
                                     <MdWifiCalling3 id={"call"}/>
                                     <h3>+771219900</h3>
@@ -55,7 +57,12 @@ const Contacts = () => {
                                     <h3>motionweb312@gmail.com</h3>
                                 </div>
 
-                                <div><FaTelegramPlane id={"telegram"}/> <AiFillInstagram id={"instagram"}/> </div>
+                                <div>
+                                    <FaTelegramPlane id={"telegram"}/>
+                                    <AiFillInstagram id={"instagram"}/>
+                                </div>
+
+
                             </div>
 
                             <div className="contacts--cardLocation__background--location">
