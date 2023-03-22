@@ -2,6 +2,8 @@ import React from 'react';
 import gou from "../../../assets/img/Frame 10.png"
 import svg from "../../../assets/img/swiper.png"
 import png from "../../../assets/img/swiper2.png"
+import photo from "../../../assets/img/photo.png"
+import photo12 from "../../../assets/img/photo12.png"
 
 
 
@@ -23,6 +25,8 @@ const BestSellers = () => {
                         <div className="best--img__photo">
                             <img src={svg} alt=""/>
                             <img src={png} alt=""/>
+                            <img src={photo} width={280} alt=""/>
+                            <img src={photo12} width={280} alt=""/>
                         </div>
                     </div>
                 </div>
