@@ -3,6 +3,7 @@ import titleImg from "./../../../assets/img/title.svg"
 import titleRight from "./../../../assets/img/title-right.svg"
 import {Foods} from "../../../components/data/foods";
 import {Link} from "react-router-dom";
+import {BsArrowRightShort} from "react-icons/bs";
 
 
 const MeinMenu = () => {
@@ -83,6 +84,13 @@ const MeinMenu = () => {
                             }
                         </div>
                     </div>
+                    <Link to={"/foods"}>
+                        <div className="mainMenu--parentBtn">
+                            <div className="mainMenu--parentBtn__topLine"/>
+                            <button>View Full menu<BsArrowRightShort className="mainMenu--parentBtn__btn"/></button>
+                            <div className="mainMenu--parentBtn__buttonLine"/>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>
