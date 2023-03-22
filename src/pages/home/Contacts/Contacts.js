@@ -6,7 +6,7 @@ import {AiFillInstagram} from "react-icons/ai";
 
 const Contacts = () => {
     return (
-        <div id={'contacts'}>
+        <div id='contacts'>
             <div className="container">
                 <div className="contacts">
                     <div className="contacts--visit">

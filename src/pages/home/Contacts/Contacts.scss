@@ -86,21 +86,36 @@
 
       &__btn{
         margin-top: 35px;
-
+        transition: .4s;
         button{
           margin: 6px;
           cursor: pointer;
         }
         &--rightLine{
-          width: 120px;
+          width: 100px;
           border: solid 1px #EF272C;
-          margin-left: 93px;
+          margin-left: 113px;
+          transition: .4s;
         }
 
         &--leftLine{
-          width: 120px;
+          width: 100px;
           border: solid 1px #EF272C;
           margin-left: 5px;
+          transition: .4s;
+
+        }
+
+        &:hover{
+          transform: scale(1.1);
+          .contacts--visit__btn--rightLine{
+            width: 140px;
+            margin-left: 40px;
+          }
+          .contacts--visit__btn--leftLine{
+            width: 140px;
+            margin-left: 40px;
+          }
         }
 
       }
