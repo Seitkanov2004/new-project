@@ -57,30 +57,18 @@
   }
 }
 
-.slick-track{
-  display: flex !important;
-  width: 400px !important;
-  .slick-list{
-    display: flex;
-    width: 500px !important;
-  }
-}
-
-.slick-slider .slick-list{
-  width: 500px !important;
-}
 .slick-slider{
-  display: flex;
+  width: 390px;
 }
 
 .slick-slide{
-  margin: 0 10px;
+  margin: 0 4px
+}
+
+.slick-track{
+  width: 2000px !important;
 }
 
 .slick-prev{
   display: none !important;
-}
-
-.slick-next{
-  color: red !important;
 }
