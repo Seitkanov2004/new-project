@@ -1,5 +1,5 @@
 #modern {
-  padding: 100px 0;
+
   .modern {
     display: flex;
     align-items: center;
@@ -10,7 +10,7 @@
       display:flex;
       justify-content: center;
       align-items: center;
-      padding: 20px 0;
+      padding: 0 0 20px 0;
       &__block {
         display: flex;
         flex-direction:column;
