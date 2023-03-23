@@ -1,6 +1,6 @@
 #about{
   .about{
-    padding: 120px 0;
+    padding: 70px 0;
     &--block{
       display: flex;
       align-items: center;
@@ -43,8 +43,14 @@
     &--img{
       display: flex;
       align-items: center;
-      justify-content: space-around;
-      margin-top: 50px;
+      justify-content: space-evenly;
+      //margin-top: 50px;
+      margin: 50px 25px;
+      &__photo{
+        img{
+            margin-right: 30px;
+        }
+      }
     }
   }
 }

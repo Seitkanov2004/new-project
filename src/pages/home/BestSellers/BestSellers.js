@@ -54,12 +54,12 @@ const BestSellers = () => {
                         <h1>You Only Reserve <br/>
                             Exception</h1>
                         <p>Each location has a menu that`s curated just for them.
-                            See what new at your Cafesio and You`ll find Cafesio Covent Carden moments.</p>
+                            See what new at your Cafesio and You`ll find Cafesio Covent Carden moments. </p>
                     </div>
                     <div className="best--img">
                         <div style={{
                             display: 'flex'
-                        }}>
+                        }} className="best--img__svg">
                             <Slider {...settings}>
                                 <img src={svg} alt=""/>
                                 <img src={png} alt=""/>

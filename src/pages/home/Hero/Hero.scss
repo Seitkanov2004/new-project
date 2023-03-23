@@ -23,6 +23,18 @@
   .hero {
     position: relative;
     padding-top: 100px;
+    hr{
+      width: 25%;
+      position: absolute;
+      right: 10px;
+    }
+    &--height{
+      position: absolute;
+      height: 50%;
+      border: 1px solid gray;
+      bottom: 20px;
+      right: 77rem;
+    }
 
     &--text {
       display: flex;
@@ -96,8 +108,8 @@
 
           &__icon {
             color: white;
-            margin: 0 10px;
-            font-size: 30px;
+            margin-right: 20px;
+            font-size: 40px;
           }
 
           p {
@@ -129,7 +141,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-top: 180px;
+      margin-top: 130px;
 
       &__line {
         display: flex;
@@ -191,7 +203,7 @@
       width: 335px;
       height: 339px;
       right: 30px;
-      bottom: 100px;
+      bottom: 180px;
       z-index: 999;
       background: #1F2731;
       box-shadow: -1px 0px 23px 1px rgba(207, 207, 207, 0.2);
@@ -207,14 +219,13 @@
         color: #FFFFFF;
         border: none;
         border-radius: 4px;
-        margin: 30px 25px;
+        margin: 40px 25px;
       }
 
       &__enter {
-        margin: 40px 0;
         display: flex;
         align-items: center;
-        justify-content: center;
+        margin: 40px 45px;
 
         &--class {
           margin: 0 15px;
@@ -238,7 +249,8 @@
       &__phone {
         display: flex;
         align-items: center;
-        justify-content: center;
+        //justify-content: center;
+        margin: 0 45px;
 
         &--ash {
           margin: 0 15px;
