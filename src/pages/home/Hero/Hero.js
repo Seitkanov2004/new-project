@@ -15,7 +15,7 @@ const Hero = () => {
                 <div className="container">
                     <div className="hero">
                         <div className="hero--height"></div>
-                        <hr/>
+                         <hr/>
                         <div className="hero--text">
                             <div className="hero--text__nav">
                                 <img src={img} alt=""/>
