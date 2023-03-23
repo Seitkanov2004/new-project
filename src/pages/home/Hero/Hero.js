@@ -11,7 +11,6 @@ const Hero = () => {
     const [info, setInfo] = useState(false)
     return (
         <div id="hero">
-            <div className="bg" hidden={!info} onClick={() => setInfo(false)}/>
             <div className="bg-blur">
                 <div className="container">
                     <div className="hero">
@@ -77,6 +76,7 @@ const Hero = () => {
                         <div className="hero--font"/>
                     </div>
                 </div>
+                <div className="bg" hidden={!info} onClick={() => setInfo(false)}/>
             </div>
         </div>
     );
