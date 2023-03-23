@@ -51,10 +51,10 @@ const BestSellers = () => {
                             <img src={gou} alt=""/>
                             <h4>Best Sellers</h4>
                         </div>
-                        <h1>You Only Reserve<br/>
+                        <h1>You Only Reserve <br/>
                             Exception</h1>
                         <p>Each location has a menu that`s curated just for them.
-                            See what new at your Cafesio and You`ll find Cafesio Covent Carden moments.</p>
+                            See what new at your Cafesio and You`ll find Cafesio Covent Carden moments. </p>
                     </div>
                     <div className="best--img">
                         <div style={{
