@@ -59,7 +59,7 @@ const BestSellers = () => {
                     <div className="best--img">
                         <div style={{
                             display: 'flex'
-                        }}>
+                        }} className="best--img__svg">
                             <Slider {...settings}>
                                 <img src={svg} alt=""/>
                                 <img src={png} alt=""/>
