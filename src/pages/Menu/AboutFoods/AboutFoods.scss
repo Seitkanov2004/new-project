@@ -50,6 +50,102 @@
       justify-content: space-between;
       align-items: start;
 
+      &__icon{
+        color: white;
+        font-size: 40px;
+        position: absolute;
+        left: 500px;
+        top: 100px;
+        cursor: pointer;
+      }
+
+      &--title{
+        font-family: 'Silk Serif',cursive;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 61px;
+        color: #FFFFFF;
+        margin-left: 36px;
+        margin-top: 60px;
+        padding: 20px 0;
+      }
+
+      &__addedFoods{
+        &--spend{
+          width: 773px;
+          height: 250px;
+          background: #1F2731;
+          margin-left: 36px;
+          border-radius: 2px;
+          &__feel {
+            &--keep {
+              display: flex;
+              align-items: start;
+              &__make{
+                padding-bottom: 20px;
+                &--block{
+                  display: flex;
+                  flex-direction: column;
+                }
+                padding-right: 40px;
+                &--give{
+                  padding: 10px;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  &__let{
+                    h3{
+                      font-family: 'Spartan',sans-serif;
+                      font-weight: 600;
+                      font-size: 16px;
+                      color: #FFFFFF;
+                      padding-bottom: 10px;
+                    }
+                    h5{
+                      font-family: 'Spartan',sans-serif;
+                      font-weight: 500;
+                      font-size: 14px;
+                      letter-spacing: 0.07em;
+                      color: #BBBBBB;
+                    }
+                  }
+                  h2{
+                    font-family: 'Spartan',sans-serif;
+                    font-weight: 600;
+                    font-size: 20px;
+                    color: #EF272C;
+                  }
+                }
+              }
+
+              &--think{
+                //padding: 20px 0;
+                width: 340px;
+                h3{
+                  font-family: 'Spartan',sans-serif;
+                  font-weight: 600;
+                  font-size: 20px;
+                  color: #FFFFFF;
+                  padding-top: 20px;
+                }
+                &__become{
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: end;
+                  h4{
+                    font-family: 'Spartan',sans-serif;
+                    font-weight: 500;
+                    font-size: 15px;
+                    color: #939393;
+                    padding: 10px 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
       &--blockChild {
         &__foods {
           display: flex;
