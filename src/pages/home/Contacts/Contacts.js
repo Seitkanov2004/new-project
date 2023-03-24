@@ -30,7 +30,7 @@ const Contacts = () => {
 
                         <div className="contacts--visit__timeline">
                             <h3>Opening hours:</h3>
-                            <h4>Mon-Thu: 10:00 am - 01:00 am <br/>
+                            <h4>Mon-Thu: 10:00 am - 01:00 <br/> am <br/>
                                 Fri-Sun: 10:00 am - 02:00 am
                             </h4>
                         </div>
@@ -50,7 +50,7 @@ const Contacts = () => {
                                     <h3>+771219900</h3>
                                 </div>
 
-                                <div>
+                                <div className={"contacts--cardLocation__background--contactInfo__social"}>
                                     <TfiEmail id={"email"}/>
                                     <h3>motionweb312@gmail.com</h3>
                                 </div>
@@ -71,8 +71,7 @@ const Contacts = () => {
                                     referrerPolicy="no-referrer-when-downgrade"
                                     width={400}
                                     height={200}
-                                >
-                                </iframe>
+                                ></iframe>
                             </div>
 
                         </div>

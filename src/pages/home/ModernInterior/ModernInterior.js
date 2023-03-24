@@ -12,6 +12,7 @@ const ModernInterior = () => {
     return (
         <section id="modern">
             <div className="container">
+                <div className="line"/>
                 <div className="modern--text">
                     <div className="modern--text__block">
                         <img src={vector} alt="" className="modern--text__block--img"/>

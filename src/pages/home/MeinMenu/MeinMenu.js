@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import titleImg from "./../../../assets/img/title.svg"
-import titleRight from "./../../../assets/img/title-right.svg"
+import titleImg from "./../../../assets/img/menu red1.svg"
+import titleRight from "./../../../assets/img/menu red2.svg"
 import {Foods} from "../../../components/data/foods";
 import {Link} from "react-router-dom";
 import {BsArrowRightShort} from "react-icons/bs";
@@ -22,12 +22,10 @@ const MeinMenu = () => {
                     <div className="mainMenu--title">
                         <div className="mainMenu--title__titleBlock">
                             <img src={titleImg} alt="" className="mainMenu--title__titleBlock--left"/>
-                            <div className="mainMenu--title__titleBlock--line"/>
                         </div>
                         <h1 className="mainMenu--title__name">Main Menu</h1>
                         <div className="mainMenu--title__titleBlock--titleBlock">
                             <img src={titleRight} alt="" className="mainMenu--title__titleBlock--left"/>
-                            <div className="mainMenu--title__titleBlock--line"/>
                         </div>
                     </div>
                     <h1 className="mainMenu--aboutFoods">Exceptional Quality. Delightfully Delicious</h1>

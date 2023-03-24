@@ -3,7 +3,7 @@
   background: url("../../../assets/img/allPhoto.jpg") no-repeat center/cover;
   min-height: 100vh;
 
-  .bg-blur{
+  .bg-blur {
     width: 100%;
     height: 100vh;
     background: rgba(0, 0, 0, 0.26);
@@ -23,17 +23,19 @@
   .hero {
     position: relative;
     padding-top: 100px;
-    hr{
+
+    hr {
       width: 25%;
       position: absolute;
       right: 10px;
     }
-    &--height{
+
+    &--height {
       position: absolute;
       height: 50%;
       border: 1px solid gray;
       bottom: 20px;
-      right: 77rem;
+      left: -20px;
     }
 
     &--text {
@@ -42,7 +44,6 @@
       justify-content: center;
       flex-direction: column;
       margin-top: 80px;
-
 
 
       &__nav {
@@ -80,13 +81,16 @@
 
       &__block {
         transition: .4s;
-        &:hover{
+
+        &:hover {
           transform: scale(1.1);
-          .hero--text__block--lin{
+
+          .hero--text__block--lin {
             width: 140px;
             margin-left: 40px;
           }
-          .hero--text__block--border{
+
+          .hero--text__block--border {
             width: 140px;
             margin-left: 40px;
           }
@@ -147,11 +151,22 @@
         display: flex;
         align-items: center;
 
-        p {
+        h5 {
+          font-family: 'Spartan', sans-serif;
           font-weight: 600;
           font-size: 14px;
+          text-transform: capitalize;
           color: #FFFFFF;
+        }
 
+        p {
+          font-family: 'Spartan',sans-serif;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 13px;
+          text-transform: capitalize;
+          color: #FFFFFF;
+          opacity: 0.8;
         }
 
         span {
@@ -170,18 +185,26 @@
         display: flex;
         align-items: center;
 
-        p {
+        h5{
+          font-family: 'Spartan',sans-serif;
           font-weight: 600;
           font-size: 14px;
+          text-transform: capitalize;
           color: #FFFFFF;
-
+        }
+        p {
+          font-family: 'Spartan',sans-serif;
+          font-weight: 600;
+          font-size: 12px;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          opacity: 0.8;
         }
 
         span {
           width: 56px;
           border: 1px solid white;
           margin: 0 10px;
-
         }
 
         &--gou {
