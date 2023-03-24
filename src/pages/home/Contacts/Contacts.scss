@@ -1,6 +1,6 @@
 #contacts {
-  padding: 100px 0;
-
+  padding-top: 130px;
+  padding-bottom: 200px;
   .contacts {
     display: flex;
     justify-content: space-evenly;
@@ -9,7 +9,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      height: 500px;
+      height: 530px;
 
       &__joinUs {
         display: flex;
@@ -75,13 +75,14 @@
         flex-direction: column;
         justify-content: space-between;
         height: 100px;
+        margin: 30px 0;
       }
 
       &__timeline {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 100px;
+        height: 130px;
       }
 
       &__btn{
@@ -108,6 +109,7 @@
 
         &:hover{
           transform: scale(1.1);
+
           .contacts--visit__btn--rightLine{
             width: 140px;
             margin-left: 40px;
@@ -127,18 +129,25 @@
       &__background{
         width: 490px;
         height: 420px;
-        background: #EF272C;
+        background: #a2161a;
         padding: 37px;
+        margin-top: 20px;
 
         &--contactInfo{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 180px;
+
+          &__social{
+            margin-bottom: 30px;
+          }
+
           div{
             display: flex;
             align-items: center;
           }
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          height: 150px;
+
 
           h2{
             font-family: 'Gilroy', sans-serif;
@@ -171,10 +180,12 @@
           #telegram{
             font-size: 25px;
             margin-right: 15px;
+            cursor: pointer;
           }
 
           #instagram{
             font-size: 25px;
+            cursor: pointer;
           }
 
         }

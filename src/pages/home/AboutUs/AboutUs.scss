@@ -1,13 +1,13 @@
 #about{
   .about{
-    padding: 70px 0;
+    padding-top: 100px;
     &--block{
       display: flex;
       align-items: center;
       justify-content: space-around;
       &__nav{
         h2{
-          font-family: 'Silk Serif',sans-serif;
+          font-family: 'Silk Serif',cursive;
           font-style: normal;
           font-weight: 600;
           font-size: 40px;
@@ -19,7 +19,7 @@
           display: flex;
           align-items: center;
           h4{
-            margin: 0 20px;
+            margin-left: 40px;
             font-family: 'Shalimar',sans-serif;
             font-style: normal;
             font-weight: 400;
@@ -30,9 +30,9 @@
       }
       &__try{
         p{
+          padding-top: 40px;
           font-family: 'Spartan',sans-serif;
-          font-style: normal;
-          font-weight: 400;
+          font-weight: 300;
           font-size: 16px;
           line-height: 24px;
           width: 539px;
