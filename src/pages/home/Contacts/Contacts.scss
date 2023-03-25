@@ -3,7 +3,8 @@
   padding-bottom: 200px;
   .contacts {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
 
     &--visit {
       display: flex;
