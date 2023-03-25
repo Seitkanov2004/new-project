@@ -1,16 +1,28 @@
 #modern {
-  padding: 100px 0;
+  padding-top: 110px;
+  position: relative;
+
+  .line{
+    position: absolute;
+    height: 490px;
+    width: 2px;
+    background: #E5E5E5;
+    left: 4%;
+    opacity: .6;
+    top: 190px;
+  }
   .modern {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
     overflow-x: auto;
+    margin-right: -5.2%;
 
     &--text {
       display:flex;
       justify-content: center;
       align-items: center;
-      padding: 20px 0;
+      padding-bottom: 32px;
       &__block {
         display: flex;
         flex-direction:column;

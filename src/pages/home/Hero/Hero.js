@@ -2,10 +2,10 @@ import React, {useState} from 'react';
 import img from "../../../assets/img/Frame 10.png"
 import bg from "../../../assets/img/Frame 9.png"
 import {FiArrowRight} from "react-icons/fi";
-import {MdOutlineFmdGood} from "react-icons/md";
-import {BiPhone} from "react-icons/bi";
 import vr from "../../../assets/img/Group 2.svg"
 import foto from "../../../assets/img/Group 1.svg"
+import {RiMapPinFill} from "react-icons/ri";
+import {IoCall} from "react-icons/io5";
 
 const Hero = () => {
     const [info, setInfo] = useState(false)
@@ -14,7 +14,7 @@ const Hero = () => {
             <div className="bg-blur">
                 <div className="container">
                     <div className="hero">
-                        <div className="hero--height"></div>
+                        <div className="hero--height"/>
                          <hr/>
                         <div className="hero--text">
                             <div className="hero--text__nav">
@@ -63,15 +63,15 @@ const Hero = () => {
                         </div>
                         <div className="hero--title">
                             <div className="hero--title__line">
-                                <p>Location</p>
+                                <h5>Location</h5>
                                 <span></span>
-                                <MdOutlineFmdGood className="hero--title__line--good"/>
+                                <RiMapPinFill className="hero--title__line--good"/>
                                 <p>Ruada moeda 1g,1200-275,Portugal</p>
                             </div>
                             <div className="hero--title__new">
-                                <p>Hotline</p>
+                                <h5>Hotline</h5>
                                 <span></span>
-                                <BiPhone className="hero--title__new--gou"/>
+                                <IoCall className="hero--title__new--gou"/>
                                 <p>+771219900</p>
                             </div>
                         </div>

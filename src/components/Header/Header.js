@@ -27,7 +27,13 @@ const Header = () => {
                             <option>KG</option>
                         </select>
                     </div>
-
+                    <div className="header--menu">
+                        <div className="header--menu__small">
+                            <div className="header--menu__small--line"/>
+                            <div className="header--menu__small--line"/>
+                        </div>
+                        .header--menu
+                    </div>
                 </div>
             </div>
         </div>
