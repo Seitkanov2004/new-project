@@ -69,9 +69,6 @@ const Contacts = () => {
                                     allowFullScreen=""
                                     loading="lazy"
                                     referrerPolicy="no-referrer-when-downgrade"
-
-                                >
-                                </iframe>
                                     width={400}
                                     height={200}
                                 ></iframe>
