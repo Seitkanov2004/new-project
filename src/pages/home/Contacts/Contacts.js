@@ -63,14 +63,12 @@ const Contacts = () => {
 
                             </div>
 
-                            <div className="contacts--cardLocation__background--location">
+                                <div className="contacts--cardLocation__background--location">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d187305.9802435646!2d74.74054755664062!3d42.81675618838551!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skg!4v1679460896513!5m2!1sru!2skg"
                                     allowFullScreen=""
                                     loading="lazy"
                                     referrerPolicy="no-referrer-when-downgrade"
-                                    width={400}
-                                    height={200}
                                 >
                                 </iframe>
                             </div>
