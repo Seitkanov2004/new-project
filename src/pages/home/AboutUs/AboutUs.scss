@@ -54,3 +54,52 @@
     }
   }
 }
+
+
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 1200px) {
+#about{
+  .about{
+    &--img{
+      margin: 50px 33px;
+      &__image{
+        img{
+          width: 419px;
+          height: 300px;
+        }
+      }
+      &__photo{
+        img{
+          margin-right: 63px;
+          padding: 0 51px;
+          width: 444px;
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+@media (max-width: 450px) {
+
+}
+@media (max-width: 376px) {
+
+}
+@media (max-width: 320px) {
+
+}
