@@ -1,9 +1,11 @@
 import React from 'react';
 import "./Menu.scss"
 
-const BurMenu = () => {
+const BurMenu = ({menu}) => {
     return (
-        <div className="menu">
+        <div className="menu" style={{
+            display: menu ? "block" : "none"
+        }}>
             <a href="#modern">interior</a>
             <a href="#about">About Us</a>
             <a href="#mainMenu">Menu</a>

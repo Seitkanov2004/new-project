@@ -76,3 +76,42 @@
 .slick-prev{
   display: none !important;
 }
+
+
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 1200px) {
+#best{
+  .best{
+    margin-right: 70px;
+    margin-top: 180px;
+    &--block{
+      p{
+        width: 370px;
+      }
+    }
+  }
+}
+}
+@media (max-width: 1024px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+@media (max-width: 450px) {
+
+}
+@media (max-width: 376px) {
+
+}
+@media (max-width: 320px) {
+
+}
