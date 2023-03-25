@@ -1,0 +1,44 @@
+.menu{
+  position: absolute;
+  z-index: 888;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 10%;
+  padding-top: 14%;
+  background: #000;
+
+  a {
+    font-family: 'Spartan', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 10px 0;
+  }
+
+  div {
+    background: transparent;
+    border: none;
+    outline: none;
+    list-style: none;
+    font-family: 'Silk Serif', sans-serif;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    span {
+      background: transparent;
+      border: none;
+      outline: none;
+      list-style: none;
+      color: white;
+      padding-top: 20px;
+      border-bottom: 1px solid white;
+    }
+  }
+}

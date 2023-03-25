@@ -79,3 +79,31 @@
     }
   }
 }
+
+
+
+////////////adaptation/////////////////
+
+
+
+
+
+
+
+@media (max-width: 1440px) {
+  #header {
+    .container {
+      width: 90%;
+    }
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  #header{
+    .header--navbar{
+      display: none;
+    }
+  }
+}
