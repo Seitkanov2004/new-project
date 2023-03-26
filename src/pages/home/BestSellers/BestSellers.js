@@ -6,12 +6,12 @@ import Slider from "react-slick"
 import next from "./../../../assets/img/next.svg"
 
 const BestSellers = () => {
-    var settings = {
+    let settings = {
         dots: true,
         infinite: false,
         speed: 500,
         slidesToShow: 2,
-        nextArrow: <img src={next}/>,
+        nextArrow: <img src={next} className="next"/>,
         slidesToScroll: 2,
         initialSlide: 0,
         responsive: [
@@ -61,12 +61,10 @@ const BestSellers = () => {
                             display: 'flex'
                         }} className="best--img__svg">
                             <Slider {...settings}>
-                                <img src={svg} alt=""/>
-                                <img src={png} alt=""/>
-                                <img src={svg} alt=""/>
-                                <img src={png} alt=""/>
-                                <img src={svg} alt=""/>
-                                <img src={png} alt=""/>
+                                <img src={svg} alt="" className="all"/>
+                                <img src={png} alt="" className="all"/>
+                                <img src={svg} alt="" className="all"/>
+                                <img src={png} alt="" className="all"/>
                             </Slider>
                         </div>
                     </div>
