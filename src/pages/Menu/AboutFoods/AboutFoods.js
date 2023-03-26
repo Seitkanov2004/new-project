@@ -37,7 +37,7 @@ const AboutFoods = () => {
                                                 }}>{el.title}</button>
                                                 <div style={{
                                                     transition: ".4s",
-                                                    left: selectedTab === el.id ? "320px" : "",
+                                                    left: selectedTab === el.id ? "" : "-60px",
                                                 }} className="mainMenu--block--blockChild__foods--allBtn__btn--line"/>
                                             </div>
                                         </div>

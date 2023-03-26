@@ -76,3 +76,383 @@
 .slick-prev{
   display: none !important;
 }
+
+
+
+
+
+
+@media (max-width: 1440px) {
+  #best {
+    .best {
+
+      &--block {
+        &__text {
+
+
+          h4 {
+
+          }
+        }
+
+        h1 {
+
+        }
+
+        p {
+
+        }
+      }
+
+      &--img{
+        &__photo {
+
+          img {
+
+          }
+
+        }
+        &__svg{
+          img{
+
+          }
+        }
+      }
+    }
+  }
+
+}
+@media (max-width: 1200px) {
+  #best {
+    .best {
+
+      &--block {
+        &__text {
+
+
+          h4 {
+
+          }
+        }
+
+        h1 {
+
+        }
+
+        p {
+
+        }
+      }
+
+      &--img{
+        &__photo {
+
+          img {
+
+          }
+
+        }
+        &__svg{
+          img{
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  #best {
+    .best {
+      margin-top: 160px;
+      &--block {
+        &__text {
+
+
+          h4 {
+
+          }
+        }
+
+        h1 {
+
+        }
+
+        p {
+          width: 362px;
+          font-weight: 200;
+        }
+      }
+
+      &--img{
+        .all{
+          width: 230px;
+        }
+        &__photo {
+
+          img {
+
+          }
+
+        }
+        &__svg{
+          .slick-slider{
+            width: 405px;
+          }
+          img{
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  #best {
+    margin-right: 40px;
+    .best {
+      margin: 150px 25px;
+      &--block {
+        &__text {
+
+
+          h4 {
+
+          }
+        }
+        h1 {
+          font-size: 35px;
+          margin: 20px 0;
+        }
+
+        p {
+
+        }
+      }
+
+      &--img{
+        &__photo {
+
+          img {
+
+          }
+
+        }
+        &__svg{
+          .slick-slider{
+            width: 344px;
+          }
+          img{
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #best {
+    .best {
+      margin: 78px 25px;
+      &--block {
+        &__text {
+          img{
+            width: 50px;
+          }
+          h4 {
+            font-size: 25px;
+            margin-left: 30px;
+          }
+        }
+        h1 {
+          font-size: 25px;
+          margin: 17px 0;
+        }
+        p {
+          width: 273px;
+          font-weight: 500;
+          line-height: 21px;
+        }
+      }
+
+      &--img{
+        &__photo {
+
+          img {
+
+          }
+
+        }
+        &__svg{
+          width: 200px;
+          .slick-slider{
+            width: 267px;
+          }
+          img{
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  #best {
+    .best {
+      margin: 45px 25px;
+      flex-direction: column;
+      &--block {
+        &__text {
+
+
+          h4 {
+
+          }
+        }
+        h1 {
+
+        }
+        p {
+          width: 195px;
+          margin: 10px 0;
+        }
+      }
+
+      &--img{
+        margin-right: 35px;
+        &__photo {
+
+          img {
+
+          }
+
+        }
+        &__svg{
+          img{
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  #best {
+    .best {
+      &--block {
+        &__text {
+
+
+          h4 {
+
+          }
+        }
+
+        h1 {
+
+        }
+
+        p {
+
+        }
+      }
+
+      &--img{
+        &__photo {
+
+          img {
+
+          }
+
+        }
+        &__svg{
+          width: 200px;
+          .slick-slider{
+            width: 220px;
+          }
+          img{
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  #best {
+    .best {
+
+      &--block {
+        &__text {
+
+
+          h4 {
+
+          }
+        }
+
+        h1 {
+
+        }
+
+        p {
+
+        }
+      }
+
+      &--img{
+        &__photo {
+
+          img {
+
+          }
+
+        }
+        &__svg{
+          img{
+
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  #best {
+    .best {
+      width: 67%;
+      &--block {
+        &__text {
+
+
+          h4 {
+
+          }
+        }
+
+        h1 {
+
+        }
+
+        p {
+
+        }
+      }
+
+      &--img{
+        &__photo {
+
+          img {
+
+          }
+
+        }
+        &__svg{
+          img{
+
+          }
+        }
+      }
+    }
+  }
+}
