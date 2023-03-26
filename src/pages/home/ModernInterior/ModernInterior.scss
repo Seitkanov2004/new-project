@@ -71,47 +71,60 @@
 
 @media (max-width:1440px) {
   #modern .modern {
-    margin-right: 4.8%;
+    margin-right: -5.3%;
   }
 }
 @media (max-width:1200px) {
   #modern .modern {
-    margin-right: 5.8%;
+    margin-right: -5.2%;
   }
 }
 @media (max-width:1024px) {
   #modern .modern {
-    margin-right: -3.2%;
+    margin-right: -5.2%;
   }
 }
 @media (max-width:992px) {
   #modern .modern {
-    margin-right: -5.1%;
-  }
-}
-@media (max-width:768px) {
-  #modern .modern {
-    margin-right: -22.1%;
+    margin-right: -16.1%;
   }
   #modern .modern--text {
-    margin: 0 0 0 89px;
+
+    margin: 0 0 0 81px;
   }
 }
-@media (max-width:578px) {
+
+@media (max-width:768px) {
   #modern .modern {
-    margin-right: -47.1%;
+    margin-right: -36.1%
+  }
+  #modern .modern--text {
+    margin: 0 0 0 117px;
+    width: 100%;
+  }
+}
+
+@media (max-width:576px) {
+  #modern .modern {
+    margin-right: -64.1%;
   }
   #modern .modern--text {
     margin: 0 0 0 165px;
+    width: 100%;
+  }
+
+  #modern .modern--text__title {
+    font-size: 31px;
   }
 }
 @media (max-width:450px) {
   #modern .modern--text__title {
     margin: 0 0;
-    font-size:15px;
+    font-size:35px;
   }
   #modern .modern--text {
-    margin: 0 0 0 268px;
+    margin: 0 0 0 163px;
+    width: 100%;
   }
 
   #modern .modern--text__block--img {
@@ -123,32 +136,46 @@
     width: 36px;
   }
   #modern .modern {
-    margin-right: -77.1%;
+    margin-right: -96.1%;
   }
 }
 
 @media (max-width: 400px) {
   #modern .modern {
-  margin-right: -92.1%;
+    margin-right: -115.1%;
 }
   #modern .modern--text {
-    margin: 0 0 0 308px;
+    margin: 0 0 0 188px;
+
   }
-  #modern .line {
-    top: 239px;
+  #modern .modern--text__title {
+    font-size: 32px;
   }
 }
 
 @media (max-width: 375px){
   #modern .modern {
-    margin-right: -102.1%;
+    margin-right: -126.1%;
   }
+  #modern .modern--text {
+    margin: 0 0 0 190px;
+  }
+}
+@media (max-width: 350px){
+  #modern .modern {
+    margin-right: -138.1%;
+  }
+  #modern .modern--text {
+    margin: 0 0 0 195px;
+  }
+
 }
 @media (max-width: 320px){
   #modern .modern {
-    margin-right: -129.1%;
+    margin-right: -157.1%;
+
   }
   #modern .modern--text {
-    margin: 0 0 0 329px;
+    margin: 0 0 0 215px;
   }
 }
