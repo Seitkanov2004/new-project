@@ -416,3 +416,202 @@
     }
   }
 }
+
+
+@media (max-width: 768px) {
+  #aboutFoods {
+    .aboutFoods{
+      &--block{
+        flex-direction: column;
+
+        &__icon{
+          left: 34px;
+          top: 290px;
+        }
+      &--title{
+        font-size: 30px;
+        margin-top: 16px;
+        padding: 14px 0;
+      }
+        &__addedFoods{
+          &--spend{
+            width: 100%;
+            height: 255px;
+            margin-top: 100px;
+            &__feel{
+              &--keep{
+                &--think{
+                  width: 295px;
+                  padding-right: 8px;
+                  &__become {
+                    h4 {
+                      padding: 6px 0;
+                      font-size: 14px;
+                    }
+                  }
+                  h3{
+                    padding-top: 8px;
+                    font-size: 18px;
+                  }
+                }
+                &__make{
+                  padding-right: 20px;
+                  &--give{
+                    h2{
+                      font-size: 17px;
+                    }
+                  }
+                  img{
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+        padding-top: 35px;
+        &__onlyFood{
+          justify-content: space-between;
+          &__parent{
+            width: 290px;
+            height: 180px;
+          }
+        }
+        &--blockChild{
+          display: flex;
+          overflow-x: auto;
+          width: 700px;
+          margin-left: 0;
+          padding: 20px 0;
+          &__foods {
+            &--allBtn {
+              width: 214px;
+              margin:0 5px;
+              .mainMenu{
+                &--block{
+                  &--blockChild{
+                    &__foods{
+                      &--allBtn{
+                        &__btn{
+                           width: 100%;
+                          height: 54px;
+                          border-radius: 4px  ;
+                          button{
+                            font-size: 22px;
+                            border: none;
+                          }
+                          &--line{
+                            display: none;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #aboutFoods {
+    .aboutFoods{
+      &--block{
+        flex-direction: column;
+
+        &__icon{
+          left: 34px;
+          top: 290px;
+        }
+      &--title{
+        font-size: 30px;
+        margin-top: 16px;
+        padding: 14px 0;
+      }
+        &__addedFoods{
+          &--spend{
+            width: 100%;
+            height: 255px;
+            margin-top: 100px;
+            &__feel{
+              &--keep{
+                &--think{
+                  width: 295px;
+                  padding-right: 8px;
+                  &__become {
+                    h4 {
+                      padding: 6px 0;
+                      font-size: 14px;
+                    }
+                  }
+                  h3{
+                    padding-top: 8px;
+                    font-size: 18px;
+                  }
+                }
+                &__make{
+                  padding-right: 20px;
+                  &--give{
+                    h2{
+                      font-size: 17px;
+                    }
+                  }
+                  img{
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+        padding-top: 35px;
+        &__onlyFood{
+          justify-content: space-between;
+          &__parent{
+            width: 290px;
+            height: 180px;
+          }
+        }
+        &--blockChild{
+          display: flex;
+          overflow-x: auto;
+          width: 525px;
+          margin-left: 0;
+          padding: 20px 0;
+          &__foods {
+            &--allBtn {
+              width: 214px;
+              margin:0 5px;
+              .mainMenu{
+                &--block{
+                  &--blockChild{
+                    &__foods{
+                      &--allBtn{
+                        &__btn{
+                           width: 100%;
+                          height: 54px;
+                          border-radius: 4px  ;
+                          button{
+                            font-size: 22px;
+                            border: none;
+                          }
+                          &--line{
+                            display: none;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
