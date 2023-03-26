@@ -2,7 +2,11 @@ import React from 'react';
 import {Link, NavLink} from "react-router-dom";
 import {FiSearch} from "react-icons/fi";
 
-const Header = () => {
+const Header = ({menu, setMenu}) => {
+
+    const clickMenu = () => {
+        setMenu(!menu)
+    }
     return (
         <div id="header">
             <div className="container">
@@ -27,7 +31,20 @@ const Header = () => {
                             <option>KG</option>
                         </select>
                     </div>
-
+                    <div className="headerMenu">
+                        <div
+                            onClick={() => clickMenu()}
+                            className="header--menu">
+                            <div className="header--menu__small">
+                                <div className="header--menu__small--line"/>
+                                <div className="header--menu__small--line"/>
+                            </div>
+                            <div className="header--menu__big">
+                                <div className="header--menu__big--line"/>
+                                <div className="header--menu__big--line"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
