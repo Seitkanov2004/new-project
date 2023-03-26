@@ -2,7 +2,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import {Route, Routes} from "react-router-dom";
 import Home from "./pages/home/home";
-import Menu from "./pages/Menu/Menu";
+import Menu from "./pages/Menu/Menu"
 import BurMenu from "./components/Header/burMenu";
 import {useState} from "react";
 
@@ -17,7 +17,7 @@ function App() {
                 <Route path={"/foods"} element={<Menu/>}/>
             </Routes>
 
-            <BurMenu menu={menu}/>
+            <BurMenu menu={menu} setMenu={setMenu}/>
 
             <Footer/>
 

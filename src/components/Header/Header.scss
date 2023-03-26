@@ -5,6 +5,7 @@
   position: fixed;
   width: 100%;
   z-index: 999;
+
   .header {
     display: flex;
     justify-content: space-between;
@@ -16,7 +17,8 @@
       font-size: 14px;
       color: #FFFFFF;
       cursor: pointer;
-      h1{
+
+      h1 {
         color: white;
       }
     }
@@ -79,19 +81,25 @@
 
     }
 
-    .headerMenu{
+    .headerMenu {
       display: none;
+
+      &--close{
+        color: white;
+        font-size: 30px;
+      }
     }
 
-    &--menu{
+    &--menu {
       display: flex;
       flex-direction: column;
       align-items: end;
 
-      &__big{
+      &__big {
         display: flex;
         flex-direction: column;
-        &--line{
+
+        &--line {
           width: 35px;
           margin-bottom: 6px;
           height: 2px;
@@ -99,10 +107,12 @@
           border-radius: 10px;
         }
       }
-      &__small{
+
+      &__small {
         display: flex;
         flex-direction: column;
-        &--line{
+
+        &--line {
           width: 20px;
           margin-bottom: 6px;
           height: 2px;
@@ -115,13 +125,7 @@
 }
 
 
-
 ////////////adaptation/////////////////
-
-
-
-
-
 
 
 @media (max-width: 1440px) {
@@ -133,6 +137,19 @@
   }
 }
 
+@media (max-width: 1024px) {
+  #header {
+    .header {
+      &--navbar {
+        width: 70%;
+        &__search{
+          width: 144px;
+          height: 33px;
+        }
+      }
+    }
+  }
+}
 
 
 @media (max-width: 768px) {
@@ -148,31 +165,37 @@
     }
   }
 }
-
-
-
-////////////adaptation/////////////////
-
-
-
-
-
-
-
-@media (max-width: 1440px) {
+@media (max-width: 375px) {
   #header {
-    .container {
-      width: 90%;
-    }
-  }
-}
+    .header {
 
+      &--menu{
+        &__big{
+          &--line{
+            width: 30px;
+            height: 1px;
+          }
+        }
+        &__small{
+          &--line{
+            width: 18px;
+            height: 1px;
+          }
+        }
+      }
 
+      &--logo{
+        h1{
+          font-size: 22px;
+        }
+      }
+      .header--navbar {
+        display: none;
+      }
 
-@media (max-width: 768px) {
-  #header{
-    .header--navbar{
-      display: none;
+      .headerMenu {
+        display: block;
+      }
     }
   }
 }
