@@ -59,7 +59,10 @@ const Hero = () => {
                                     <h4>Enter your phone</h4>
                                 </div>
                             </div>
-                            <button>Сontact</button>
+                            <button onClick={() => setInfo(!info)} style={{
+                                display: info ? "block" : "",
+                                cursor: "pointer"
+                            }}>Сontact</button>
                         </div>
                         <div className="hero--title">
                             <div className="hero--title__line">
