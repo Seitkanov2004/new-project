@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import {Foods} from "../../../components/data/foods";
 import {IoIosCloseCircleOutline} from "react-icons/io";
+import adapMenu from "./../../../assets/img/adap-menu.svg"
+import {FiSearch} from "react-icons/fi";
 
 const AboutFoods = () => {
     const [selectedTab, setSelectedTab] = useState(1);
@@ -15,10 +17,20 @@ const AboutFoods = () => {
         <div id="aboutFoods">
             <div className="container">
                 <div className="aboutFoods">
+                    <div className="aboutFoods--menuTitle">
+                        <div className="aboutFoods--firstTitle">
+                            <div>
+                                <img src={adapMenu} alt=""/>
+                                <h1>Menu</h1>
+                            </div>
+                            <FiSearch className="aboutFoods--firstTitle__icon"/>
+                        </div>
+                    </div>
                     <div className="aboutFoods--block">
                         <div style={{
                             display: addFoods ? "block" : "none"
-                        }} onClick={() => setAddFoods(false)} className="aboutFoods--block__icon"><IoIosCloseCircleOutline/></div>
+                        }} onClick={() => setAddFoods(false)} className="aboutFoods--block__icon">
+                            <IoIosCloseCircleOutline/></div>
                         <div className="aboutFoods--block--blockChild">
                             {
                                 Foods.map(el => (
@@ -70,7 +82,8 @@ const AboutFoods = () => {
                                                                     <h2>{el.price}</h2>
                                                                 </div>
                                                             </div>
-                                                            <div className="aboutFoods--block__addedFoods--spend__feel--keep__make--block">
+                                                            <div
+                                                                className="aboutFoods--block__addedFoods--spend__feel--keep__make--block">
                                                                 <div
                                                                     className="aboutFoods--block__addedFoods--spend__feel--keep--think">
                                                                     <h3>Extras</h3>
@@ -117,7 +130,8 @@ const AboutFoods = () => {
                                         <div className="aboutFoods--block__onlyFood">
                                             {
                                                 selectedTab === el.id && el.nameFoots.map(el => (
-                                                    <div onClick={() => setAddFoods(true)} className="aboutFoods--block__onlyFood__parent">
+                                                    <div onClick={() => setAddFoods(true)}
+                                                         className="aboutFoods--block__onlyFood__parent">
                                                         <img src={el.img} alt=""
                                                              className="aboutFoods--block__onlyFood__parent--img"/>
                                                         <div className="aboutFoods--block__onlyFood__parent--order">
