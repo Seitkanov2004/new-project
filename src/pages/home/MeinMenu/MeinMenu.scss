@@ -224,10 +224,519 @@
 
         }
       }
-
     }
   }
 }
 
 
 
+@media (max-width: 576px) {
+  #mainMenu {
+    .mainMenu {
+      &--parentBtn{
+        margin: 40px 0;
+        &__btn{
+
+        }
+
+        &__topLine{
+
+        }
+
+        &__buttonLine{
+
+        }
+
+        button{
+
+        }
+
+        &:hover{
+
+          .mainMenu--parentBtn__topLine{
+
+          }
+          .mainMenu--parentBtn__buttonLine{
+
+          }
+        }
+      }
+      &--title {
+        &__name {
+
+        }
+
+        &__titleBlock {
+
+          &--left {
+            padding: 0;
+          }
+
+          &--line {
+
+          }
+        }
+      }
+      &--aboutFoods {
+        font-size:35px;
+        line-height: 53px;
+        width: 78%;
+        padding: 0 0 36px 0;
+      }
+      &--block {
+        width: 64%;
+        &--foodsName{
+          display: none;
+        }
+
+        &--blockChild {
+          &__foods {
+
+
+            &--allBtn {
+              margin-right: 0;
+              &__btn {
+
+                &--line {
+                display: none;
+                }
+
+                button {
+
+                }
+
+                &:hover{
+
+                  button {
+
+                  }
+
+                }
+              }
+            }
+          }
+        }
+
+
+        &__onlyFood {
+
+          &__parent {
+
+
+            &--about {
+
+              h1{
+
+              }
+              div{
+
+              }
+              h3{
+
+              }
+            }
+
+            &--order{
+
+              p{
+
+              }
+
+              button{
+
+              }
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  #mainMenu {
+    .mainMenu {
+
+      &--parentBtn{
+        margin-left: 25px;
+        &__btn{
+
+        }
+
+        &__topLine{
+
+        }
+
+        &__buttonLine{
+
+        }
+
+        button{
+
+        }
+
+        &:hover{
+
+          .mainMenu--parentBtn__topLine{
+
+          }
+          .mainMenu--parentBtn__buttonLine{
+
+          }
+        }
+      }
+
+      &--title {
+        padding: 9px 0;
+
+        &__name {
+
+        }
+
+        &__titleBlock {
+
+          &--left {
+
+          }
+
+          &--line {
+
+          }
+        }
+      }
+
+      &--aboutFoods {
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 47px;
+        width: 90%;
+        padding: 0 0 34px 0;
+      }
+
+      &--block {
+        width: 82%;
+
+        &--blockChild {
+          &__foods {
+
+
+            &--allBtn {
+
+              &__btn {
+
+                &--line {
+
+                }
+
+                button {
+
+                }
+
+                &:hover{
+
+                  button {
+
+                  }
+
+                }
+              }
+            }
+          }
+        }
+
+
+        &__onlyFood {
+
+          &__parent {
+
+
+            &--about {
+
+              h1{
+
+              }
+              div{
+
+              }
+              h3{
+
+              }
+            }
+
+            &--order{
+
+              p{
+
+              }
+
+              button{
+
+              }
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  #mainMenu {
+    width: 100%;
+    .mainMenu {
+      padding-top: 16px;
+      &--parentBtn{
+
+        &__btn{
+
+        }
+
+        &__topLine{
+          width: 86px;
+        }
+
+        &__buttonLine{
+          width: 86px;
+          margin-left: 103px;
+        }
+
+        button{
+          padding: 8px 18px;
+        }
+
+        &:hover{
+
+          .mainMenu--parentBtn__topLine{
+
+          }
+          .mainMenu--parentBtn__buttonLine{
+
+          }
+        }
+      }
+
+      &--title {
+
+
+        &__name {
+          margin: 0 25px;
+        }
+
+        &__titleBlock {
+
+          &--left {
+
+          }
+
+          &--line {
+
+          }
+        }
+      }
+
+      &--aboutFoods {
+        width: 85%;
+        font-size: 27px;
+        line-height: 41px;
+        margin-left: 25px;
+      }
+
+      &--block {
+        width: 83%;
+
+        &--blockChild {
+          &__foods {
+
+
+            &--allBtn {
+              width: 300px;
+
+              &__btn {
+
+                &--line {
+
+                }
+
+                button {
+                  width: 198px;
+                }
+
+                &:hover{
+
+                  button {
+
+                  }
+
+                }
+              }
+            }
+          }
+        }
+
+
+        &__onlyFood {
+
+          &__parent {
+
+
+            &--about {
+
+              h1{
+
+              }
+              div{
+
+              }
+              h3{
+
+              }
+            }
+
+            &--order{
+
+              p{
+
+              }
+
+              button{
+
+              }
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  #mainMenu {
+    .mainMenu {
+
+      &--parentBtn{
+
+        &__btn{
+
+        }
+
+        &__topLine{
+
+        }
+
+        &__buttonLine{
+
+        }
+
+        button{
+
+        }
+
+        &:hover{
+
+          .mainMenu--parentBtn__topLine{
+
+          }
+          .mainMenu--parentBtn__buttonLine{
+
+          }
+        }
+      }
+
+      &--title {
+
+
+        &__name {
+
+        }
+
+        &__titleBlock {
+
+          &--left {
+
+          }
+
+          &--line {
+
+          }
+        }
+      }
+
+      &--aboutFoods {
+        width: 96%;
+        font-size: 24px;
+        line-height: 34px;
+        margin-left: 38px;
+      }
+
+      &--block {
+
+        width: 97%;
+
+        &--blockChild {
+          &__foods {
+
+
+            &--allBtn {
+
+              &__btn {
+
+                &--line {
+
+                }
+
+                button {
+
+                }
+
+                &:hover{
+
+                  button {
+
+                  }
+
+                }
+              }
+            }
+          }
+        }
+
+
+        &__onlyFood {
+
+          &__parent {
+
+
+            &--about {
+
+              h1{
+
+              }
+              div{
+
+              }
+              h3{
+
+              }
+            }
+
+            &--order{
+
+              p{
+
+              }
+
+              button{
+
+              }
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+}

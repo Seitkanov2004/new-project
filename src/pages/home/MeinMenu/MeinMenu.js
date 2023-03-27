@@ -28,6 +28,7 @@ const MeinMenu = () => {
                             <img src={titleRight} alt="" className="mainMenu--title__titleBlock--left"/>
                         </div>
                     </div>
+
                     <h1 className="mainMenu--aboutFoods">Exceptional Quality. Delightfully Delicious</h1>
                     <div className="mainMenu--block">
                         <div className="mainMenu--block--blockChild">

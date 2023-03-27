@@ -12,7 +12,6 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      height: 530px;
       &__joinUs {
         display: flex;
         align-items: center;
@@ -206,6 +205,8 @@
   }
 }
 
+
+
 @media (max-width: 1440px) {
   #contacts{
     .contacts{
@@ -303,7 +304,7 @@
         }
       }
       &--cardLocation{
-        height: 436px;
+        height: 290px;
         padding: 28px;
         margin-bottom: 80px;
         &__background{
@@ -367,7 +368,6 @@
     margin-top: 120px;
     .contacts{
       flex-direction: column;
-      width: 60%;
       &--visit{
         &__joinUs{
 
@@ -383,11 +383,12 @@
         }
       }
       &--cardLocation{
-
+        height: 360px;
         &__background{
+          width: 424px;
           &--location{
             iframe{
-              width: 480px;
+              width: 420px;
             }
           }
 
@@ -402,9 +403,6 @@
 
       &--visit{
         margin-bottom: 50px;
-        height: 100%;
-        width: 127%;
-        margin-left: 70px;
         h4{
           line-height: 35px;
         }
@@ -428,8 +426,8 @@
         }
       }
       &--cardLocation{
-        width: 245px;
-
+        width: 396px;
+        height: 370px;
         &__background{
           width: 100px;
           height: 100px;
@@ -442,7 +440,7 @@
     }
   }
   #contacts .contacts--cardLocation__background--location iframe {
-    width: 400px;
+    width: 360px;
 
   }
 }
@@ -458,16 +456,21 @@
 
         }
         &__timeline{
-          width: 300px ;
         }
         &__btn{
+          &--rightLine{
+            margin-left: 89px;
+          }
+          button{
+            font-size: 10px;
+            width: 185px;
 
+          }
         }
       }
       &--cardLocation{
         padding: 0;
-        width: 215px;
-        height: 325px;
+        width: 302px;
         &__background{
           &--location{
             iframe{
@@ -479,15 +482,22 @@
     }
   }
   #contacts .contacts--cardLocation__background--location iframe {
-    width: 340px;
+    width: 300px;
+    height: 300px;
   }
 }
 @media (max-width: 350px) {
   #contacts{
     .contacts{
       &--visit{
+        h4{
+          line-height: 24px;
+          font-size: 19px;
+        }
         h2{
-          font-size: 38px;
+          font-size: 33px;
+          font-weight: 400;
+          line-height: 36px;
         }
         &__joinUs{
 
@@ -504,12 +514,11 @@
         }
       }
       &--cardLocation{
-        width: 175px;
         &__background{
           &--location{
             iframe{
-              width: 300px;
-              height: 350px;
+              width: 292px;
+              height: 336px;
             }
           }
 
