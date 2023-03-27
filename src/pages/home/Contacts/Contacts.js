@@ -10,7 +10,6 @@ const Contacts = () => {
             <div className="container">
                 <div className="contacts">
                     <div className="contacts--visit">
-
                         <div className="contacts--visit__joinUs">
                             <svg width="52" height="16" viewBox="0 0 52 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M51.2598 8.99238H12.2598C9.25977 7.99238 9.25977 2.99238 12.2598 1.49238C14.5451 0.349559 19.7598 0.992432 19.2598 5.99238" stroke="#EF272C" stroke-width="2"/>
@@ -19,8 +18,11 @@ const Contacts = () => {
                             <h5>Visit restaurant</h5>
                         </div>
 
-                        <h2>Join Us for <br/>
-                            Happy Hours</h2>
+                        <div className="contacts--visit__happy">
+                            <h2>Join Us for <br/>
+                                Happy Hours</h2>
+                        </div>
+
 
                         <div className="contacts--visit__address">
                             <h3>Your neighborhood</h3>
@@ -45,7 +47,7 @@ const Contacts = () => {
                         <div className="contacts--cardLocation__background">
                             <div className="contacts--cardLocation__background--contactInfo">
                                 <h2>Contact Info</h2>
-                                <div>
+                                <div className={"contacts--cardLocation__background--contactInfo__call"}>
                                     <MdWifiCalling3 id={"call"}/>
                                     <h3>+771219900</h3>
                                 </div>
@@ -55,7 +57,7 @@ const Contacts = () => {
                                     <h3>motionweb312@gmail.com</h3>
                                 </div>
 
-                                <div>
+                                <div className={"contacts--cardLocation__background--contactInfo__tgInst"}>
                                     <FaTelegramPlane id={"telegram"}/>
                                     <AiFillInstagram id={"instagram"}/>
                                 </div>
@@ -65,6 +67,7 @@ const Contacts = () => {
 
                                 <div className="contacts--cardLocation__background--location">
                                 <iframe
+                                    className={"contacts--cardLocation__background--location__map"}
                                     src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d187305.9802435646!2d74.74054755664062!3d42.81675618838551!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skg!4v1679460896513!5m2!1sru!2skg"
                                     allowFullScreen=""
                                     loading="lazy"
