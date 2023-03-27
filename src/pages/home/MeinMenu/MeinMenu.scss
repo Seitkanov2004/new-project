@@ -275,7 +275,7 @@
           &__parent{
             &--about{
               div{
-                width: 320px;
+                width: 384px;
               }
             }
           }
@@ -287,6 +287,7 @@
 @media (max-width: 1024px) {
   #mainMenu{
     .mainMenu{
+      padding-top: 50px;
       &--parentBtn{
         margin-top: 30px;
       }
@@ -296,7 +297,7 @@
         }
       }
       &--aboutFoods{
-        width: 40%;
+        width: 45%;
       }
       &--block{
         &--blockChild{
@@ -398,22 +399,20 @@
     .mainMenu{
 
       &--parentBtn{
-        margin: 40px 0 0 155px;
+        margin: 40px 0 0 0;
 
       }
       &--title{
-        margin-left: 150px;
         &__titleBlock{
 
         }
       }
       &--aboutFoods{
         width: 60%;
-        margin-left: 170px;
       }
       &--block{
         &--blockChild{
-          margin-left: 245px;
+          margin-left: 118px;
           &__foods{
             &--allBtn{
               margin-right: 45px;
@@ -513,6 +512,7 @@
         }
 
         &--blockChild {
+          margin-left: 0;
           &__foods {
 
 
