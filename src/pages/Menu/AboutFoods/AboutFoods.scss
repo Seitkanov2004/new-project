@@ -174,7 +174,7 @@
                 width: 60px;
                 position: absolute;
                 background: white;
-                left: -60px;
+                left: 322px;
                 top: 50%;
                 height: 3px;
               }
@@ -270,3 +270,348 @@
   }
 }
 
+
+
+@media (max-width: 1200px) {
+  #aboutFoods {
+    .aboutFoods{
+      &--block{
+
+        &__addedFoods{
+          &--spend{
+            width: 100%;
+            &__feel{
+              &--keep{
+                &--think{
+                  width: 295px;
+                }
+                &__make{
+                  padding-right: 20px;
+                }
+              }
+            }
+          }
+        }
+        padding-top: 35px;
+        &__onlyFood{
+          &__parent{
+            width: 310px;
+            height: 195px;
+          }
+        }
+        &--blockChild{
+          &__foods {
+            &--allBtn {
+              width: 315px;
+              margin-right: 40px;
+              .mainMenu{
+                &--block{
+                  &--blockChild{
+                    &__foods{
+                      &--allBtn{
+                        &__btn{
+                          width: 90%;
+                          button{
+                            font-size: 22px;
+                            border-bottom: 1px solid white;
+                          }
+                          &--line{
+                            left: 265px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #aboutFoods {
+    .aboutFoods{
+      &--block{
+      &--title{
+        font-size: 30px;
+        margin-top: 16px;
+        padding: 14px 0;
+      }
+        &__addedFoods{
+          &--spend{
+            width: 100%;
+            height: 200px;
+            &__feel{
+              &--keep{
+                &--think{
+                  width: 295px;
+                  padding-right: 8px;
+                  &__become {
+                    h4 {
+                      padding: 6px 0;
+                      font-size: 14px;
+                    }
+                  }
+                  h3{
+                    padding-top: 8px;
+                    font-size: 18px;
+                  }
+                }
+                &__make{
+                  padding-right: 20px;
+                  &--give{
+                    h2{
+                      font-size: 17px;
+                    }
+                  }
+                  img{
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+        padding-top: 35px;
+        &__onlyFood{
+          &__parent{
+            width: 238px;
+            height: 157px;
+          }
+        }
+        &--blockChild{
+          &__foods {
+            &--allBtn {
+              width: 300px;
+              margin-right: 24px;
+              .mainMenu{
+                &--block{
+                  &--blockChild{
+                    &__foods{
+                      &--allBtn{
+                        &__btn{
+                          width: 90%;
+                          height: 60px;
+                          button{
+                            font-size: 22px;
+                            border-bottom: 1px solid white;
+                          }
+                          &--line{
+                            left: 236px;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  #aboutFoods {
+    .aboutFoods{
+      &--block{
+        flex-direction: column;
+
+        &__icon{
+          left: 34px;
+          top: 290px;
+        }
+      &--title{
+        font-size: 30px;
+        margin-top: 16px;
+        padding: 14px 0;
+      }
+        &__addedFoods{
+          &--spend{
+            width: 100%;
+            height: 255px;
+            margin-top: 100px;
+            &__feel{
+              &--keep{
+                &--think{
+                  width: 295px;
+                  padding-right: 8px;
+                  &__become {
+                    h4 {
+                      padding: 6px 0;
+                      font-size: 14px;
+                    }
+                  }
+                  h3{
+                    padding-top: 8px;
+                    font-size: 18px;
+                  }
+                }
+                &__make{
+                  padding-right: 20px;
+                  &--give{
+                    h2{
+                      font-size: 17px;
+                    }
+                  }
+                  img{
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+        padding-top: 35px;
+        &__onlyFood{
+          justify-content: space-between;
+          &__parent{
+            width: 290px;
+            height: 180px;
+          }
+        }
+        &--blockChild{
+          display: flex;
+          overflow-x: auto;
+          width: 700px;
+          margin-left: 0;
+          padding: 20px 0;
+          &__foods {
+            &--allBtn {
+              width: 214px;
+              margin:0 5px;
+              .mainMenu{
+                &--block{
+                  &--blockChild{
+                    &__foods{
+                      &--allBtn{
+                        &__btn{
+                           width: 100%;
+                          height: 54px;
+                          border-radius: 4px  ;
+                          button{
+                            font-size: 22px;
+                            border: none;
+                          }
+                          &--line{
+                            display: none;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #aboutFoods {
+    .aboutFoods{
+      &--block{
+        flex-direction: column;
+
+        &__icon{
+          left: 34px;
+          top: 290px;
+        }
+      &--title{
+        font-size: 30px;
+        margin-top: 16px;
+        padding: 14px 0;
+      }
+        &__addedFoods{
+          &--spend{
+            width: 100%;
+            height: 255px;
+            margin-top: 100px;
+            &__feel{
+              &--keep{
+                &--think{
+                  width: 295px;
+                  padding-right: 8px;
+                  &__become {
+                    h4 {
+                      padding: 6px 0;
+                      font-size: 14px;
+                    }
+                  }
+                  h3{
+                    padding-top: 8px;
+                    font-size: 18px;
+                  }
+                }
+                &__make{
+                  padding-right: 20px;
+                  &--give{
+                    h2{
+                      font-size: 17px;
+                    }
+                  }
+                  img{
+                    width: 100%;
+                  }
+                }
+              }
+            }
+          }
+        }
+        padding-top: 35px;
+        &__onlyFood{
+          justify-content: space-between;
+          &__parent{
+            width: 290px;
+            height: 180px;
+          }
+        }
+        &--blockChild{
+          display: flex;
+          overflow-x: auto;
+          width: 525px;
+          margin-left: 0;
+          padding: 20px 0;
+          &__foods {
+            &--allBtn {
+              width: 214px;
+              margin:0 5px;
+              .mainMenu{
+                &--block{
+                  &--blockChild{
+                    &__foods{
+                      &--allBtn{
+                        &__btn{
+                           width: 100%;
+                          height: 54px;
+                          border-radius: 4px  ;
+                          button{
+                            font-size: 22px;
+                            border: none;
+                          }
+                          &--line{
+                            display: none;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
