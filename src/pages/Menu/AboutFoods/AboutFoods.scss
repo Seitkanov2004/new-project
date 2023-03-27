@@ -5,6 +5,36 @@
     align-items: center;
     padding: 120px 0;
 
+    &--menuTitle {
+      display: none;
+    }
+
+    &--firstTitle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 666px;
+
+      div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+          padding-left: 20px;
+          font-family: 'Shalimar', sans-serif;
+          font-weight: 400;
+          font-size: 40px;
+          color: #FFFFFF;
+        }
+      }
+
+      &__icon {
+        color: white;
+        font-size: 22px;
+      }
+    }
+
     &--title {
       display: flex;
       justify-content: center;
@@ -50,7 +80,7 @@
       justify-content: space-between;
       align-items: start;
 
-      &__icon{
+      &__icon {
         color: white;
         font-size: 40px;
         position: absolute;
@@ -59,8 +89,8 @@
         cursor: pointer;
       }
 
-      &--title{
-        font-family: 'Silk Serif',cursive;
+      &--title {
+        font-family: 'Silk Serif', cursive;
         font-weight: 600;
         font-size: 40px;
         line-height: 61px;
@@ -69,46 +99,54 @@
         padding: 20px 0;
       }
 
-      &__addedFoods{
-        &--spend{
+      &__addedFoods {
+        &--spend {
           width: 773px;
           height: 250px;
           background: #1F2731;
           border-radius: 2px;
+
           &__feel {
             &--keep {
               display: flex;
               align-items: start;
-              &__make{
+
+              &__make {
                 padding-bottom: 20px;
-                &--block{
+
+                &--block {
                   display: flex;
                   flex-direction: column;
                 }
+
                 padding-right: 40px;
-                &--give{
+
+                &--give {
                   padding: 10px;
                   display: flex;
                   justify-content: space-between;
                   align-items: center;
-                  &__let{
-                    h3{
-                      font-family: 'Spartan',sans-serif;
+
+                  &__let {
+                    h3 {
+                      font-family: 'Spartan', sans-serif;
                       font-weight: 600;
                       font-size: 16px;
                       color: #FFFFFF;
                       padding-bottom: 10px;
                     }
-                    h5{
-                      font-family: 'Spartan',sans-serif;
+
+                    h5 {
+                      font-family: 'Spartan', sans-serif;
                       font-weight: 500;
                       font-size: 14px;
                       letter-spacing: 0.07em;
                       color: #BBBBBB;
                     }
                   }
-                  h2{
-                    font-family: 'Spartan',sans-serif;
+
+                  h2 {
+                    font-family: 'Spartan', sans-serif;
                     font-weight: 600;
                     font-size: 20px;
                     color: #EF272C;
@@ -116,22 +154,25 @@
                 }
               }
 
-              &--think{
+              &--think {
                 //padding: 20px 0;
                 width: 340px;
-                h3{
-                  font-family: 'Spartan',sans-serif;
+
+                h3 {
+                  font-family: 'Spartan', sans-serif;
                   font-weight: 600;
                   font-size: 20px;
                   color: #FFFFFF;
                   padding-top: 20px;
                 }
-                &__become{
+
+                &__become {
                   display: flex;
                   justify-content: space-between;
                   align-items: end;
-                  h4{
-                    font-family: 'Spartan',sans-serif;
+
+                  h4 {
+                    font-family: 'Spartan', sans-serif;
                     font-weight: 500;
                     font-size: 15px;
                     color: #939393;
@@ -146,6 +187,7 @@
 
       &--blockChild {
         margin-left: 60px;
+
         &__foods {
           display: flex;
           justify-content: space-between;
@@ -271,51 +313,58 @@
 }
 
 
-
 @media (max-width: 1200px) {
   #aboutFoods {
-    .aboutFoods{
-      &--block{
+    .aboutFoods {
+      &--block {
 
-        &__addedFoods{
-          &--spend{
+        &__addedFoods {
+          &--spend {
             width: 100%;
-            &__feel{
-              &--keep{
-                &--think{
+
+            &__feel {
+              &--keep {
+                &--think {
                   width: 295px;
                 }
-                &__make{
+
+                &__make {
                   padding-right: 20px;
                 }
               }
             }
           }
         }
+
         padding-top: 35px;
-        &__onlyFood{
-          &__parent{
+
+        &__onlyFood {
+          &__parent {
             width: 310px;
             height: 195px;
           }
         }
-        &--blockChild{
+
+        &--blockChild {
           &__foods {
             &--allBtn {
               width: 315px;
               margin-right: 40px;
-              .mainMenu{
-                &--block{
-                  &--blockChild{
-                    &__foods{
-                      &--allBtn{
-                        &__btn{
+
+              .mainMenu {
+                &--block {
+                  &--blockChild {
+                    &__foods {
+                      &--allBtn {
+                        &__btn {
                           width: 90%;
-                          button{
+
+                          button {
                             font-size: 22px;
                             border-bottom: 1px solid white;
                           }
-                          &--line{
+
+                          &--line {
                             left: 265px;
                           }
                         }
@@ -334,41 +383,48 @@
 
 @media (max-width: 1024px) {
   #aboutFoods {
-    .aboutFoods{
-      &--block{
-      &--title{
-        font-size: 30px;
-        margin-top: 16px;
-        padding: 14px 0;
-      }
-        &__addedFoods{
-          &--spend{
+    .aboutFoods {
+      &--block {
+        &--title {
+          font-size: 30px;
+          margin-top: 16px;
+          padding: 14px 0;
+        }
+
+        &__addedFoods {
+          &--spend {
             width: 100%;
             height: 200px;
-            &__feel{
-              &--keep{
-                &--think{
+
+            &__feel {
+              &--keep {
+                &--think {
                   width: 295px;
                   padding-right: 8px;
+
                   &__become {
                     h4 {
                       padding: 6px 0;
                       font-size: 14px;
                     }
                   }
-                  h3{
+
+                  h3 {
                     padding-top: 8px;
                     font-size: 18px;
                   }
                 }
-                &__make{
+
+                &__make {
                   padding-right: 20px;
-                  &--give{
-                    h2{
+
+                  &--give {
+                    h2 {
                       font-size: 17px;
                     }
                   }
-                  img{
+
+                  img {
                     width: 100%;
                   }
                 }
@@ -376,31 +432,37 @@
             }
           }
         }
+
         padding-top: 35px;
-        &__onlyFood{
-          &__parent{
+
+        &__onlyFood {
+          &__parent {
             width: 238px;
             height: 157px;
           }
         }
-        &--blockChild{
+
+        &--blockChild {
           &__foods {
             &--allBtn {
               width: 300px;
               margin-right: 24px;
-              .mainMenu{
-                &--block{
-                  &--blockChild{
-                    &__foods{
-                      &--allBtn{
-                        &__btn{
+
+              .mainMenu {
+                &--block {
+                  &--blockChild {
+                    &__foods {
+                      &--allBtn {
+                        &__btn {
                           width: 90%;
                           height: 60px;
-                          button{
+
+                          button {
                             font-size: 22px;
                             border-bottom: 1px solid white;
                           }
-                          &--line{
+
+                          &--line {
                             left: 236px;
                           }
                         }
@@ -420,48 +482,61 @@
 
 @media (max-width: 768px) {
   #aboutFoods {
-    .aboutFoods{
-      &--block{
+    .aboutFoods {
+
+      &--menuTitle {
+        display: block;
+      }
+
+      &--block {
         flex-direction: column;
 
-        &__icon{
+        &__icon {
           left: 34px;
-          top: 290px;
+          top: 330px;
         }
-      &--title{
-        font-size: 30px;
-        margin-top: 16px;
-        padding: 14px 0;
-      }
-        &__addedFoods{
-          &--spend{
+
+        &--title {
+          font-size: 30px;
+          margin-top: 16px;
+          padding: 14px 0;
+        }
+
+        &__addedFoods {
+          &--spend {
             width: 100%;
             height: 255px;
             margin-top: 100px;
-            &__feel{
-              &--keep{
-                &--think{
+
+            &__feel {
+              &--keep {
+                &--think {
                   width: 295px;
                   padding-right: 8px;
+
                   &__become {
                     h4 {
                       padding: 6px 0;
                       font-size: 14px;
                     }
                   }
-                  h3{
+
+                  h3 {
                     padding-top: 8px;
                     font-size: 18px;
                   }
                 }
-                &__make{
+
+                &__make {
                   padding-right: 20px;
-                  &--give{
-                    h2{
+
+                  &--give {
+                    h2 {
                       font-size: 17px;
                     }
                   }
-                  img{
+
+                  img {
                     width: 100%;
                   }
                 }
@@ -469,38 +544,46 @@
             }
           }
         }
+
         padding-top: 35px;
-        &__onlyFood{
+
+        &__onlyFood {
           justify-content: space-between;
-          &__parent{
+
+          &__parent {
             width: 290px;
             height: 180px;
           }
         }
-        &--blockChild{
+
+        &--blockChild {
           display: flex;
           overflow-x: auto;
           width: 700px;
           margin-left: 0;
           padding: 20px 0;
+
           &__foods {
             &--allBtn {
               width: 214px;
-              margin:0 5px;
-              .mainMenu{
-                &--block{
-                  &--blockChild{
-                    &__foods{
-                      &--allBtn{
-                        &__btn{
-                           width: 100%;
+              margin: 0 5px;
+
+              .mainMenu {
+                &--block {
+                  &--blockChild {
+                    &__foods {
+                      &--allBtn {
+                        &__btn {
+                          width: 100%;
                           height: 54px;
-                          border-radius: 4px  ;
-                          button{
+                          border-radius: 4px;
+
+                          button {
                             font-size: 22px;
                             border: none;
                           }
-                          &--line{
+
+                          &--line {
                             display: none;
                           }
                         }
@@ -519,48 +602,60 @@
 
 @media (max-width: 576px) {
   #aboutFoods {
-    .aboutFoods{
-      &--block{
+    .aboutFoods {
+
+      &--firstTitle{
+        width: 500px;
+      }
+      &--block {
         flex-direction: column;
 
-        &__icon{
+        &__icon {
           left: 34px;
           top: 290px;
         }
-      &--title{
-        font-size: 30px;
-        margin-top: 16px;
-        padding: 14px 0;
-      }
-        &__addedFoods{
-          &--spend{
+
+        &--title {
+          font-size: 30px;
+          margin-top: 16px;
+          padding: 14px 0;
+        }
+
+        &__addedFoods {
+          &--spend {
             width: 100%;
-            height: 255px;
+            height: 188px;
             margin-top: 100px;
-            &__feel{
-              &--keep{
-                &--think{
+
+            &__feel {
+              &--keep {
+                &--think {
                   width: 295px;
                   padding-right: 8px;
+
                   &__become {
                     h4 {
                       padding: 6px 0;
                       font-size: 14px;
                     }
                   }
-                  h3{
+
+                  h3 {
                     padding-top: 8px;
                     font-size: 18px;
                   }
                 }
-                &__make{
+
+                &__make {
                   padding-right: 20px;
-                  &--give{
-                    h2{
+
+                  &--give {
+                    h2 {
                       font-size: 17px;
                     }
                   }
-                  img{
+
+                  img {
                     width: 100%;
                   }
                 }
@@ -568,38 +663,59 @@
             }
           }
         }
+
         padding-top: 35px;
-        &__onlyFood{
+
+        &__onlyFood {
           justify-content: space-between;
-          &__parent{
-            width: 290px;
-            height: 180px;
+
+          &__parent {
+            width: 100%;
+            height: 187px;
+            padding-bottom: 0;
+            flex-direction: revert;
+            overflow: hidden;
+            border-radius: 10px;
+
+            &--order {
+              flex-direction: column;
+              align-items: start;
+
+              h3 {
+                padding-left: 10px;
+              }
+            }
           }
         }
-        &--blockChild{
+
+        &--blockChild {
           display: flex;
           overflow-x: auto;
           width: 525px;
           margin-left: 0;
           padding: 20px 0;
+
           &__foods {
             &--allBtn {
               width: 214px;
-              margin:0 5px;
-              .mainMenu{
-                &--block{
-                  &--blockChild{
-                    &__foods{
-                      &--allBtn{
-                        &__btn{
-                           width: 100%;
+              margin: 0 5px;
+
+              .mainMenu {
+                &--block {
+                  &--blockChild {
+                    &__foods {
+                      &--allBtn {
+                        &__btn {
+                          width: 100%;
                           height: 54px;
-                          border-radius: 4px  ;
-                          button{
+                          border-radius: 4px;
+
+                          button {
                             font-size: 22px;
                             border: none;
                           }
-                          &--line{
+
+                          &--line {
                             display: none;
                           }
                         }
