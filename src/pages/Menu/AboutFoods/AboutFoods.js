@@ -82,6 +82,7 @@ const AboutFoods = () => {
                                                                     <h2>{el.price}</h2>
                                                                 </div>
                                                             </div>
+                                                            <button className="aboutFoods--block__addedFoods--spend__feel--keep__btn">Desserts</button>
                                                             <div
                                                                 className="aboutFoods--block__addedFoods--spend__feel--keep__make--block">
                                                                 <div
